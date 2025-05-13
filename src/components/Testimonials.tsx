@@ -44,18 +44,16 @@ const Testimonials: React.FC = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 5000);
-
+    const interval = setInterval(nextSlide, 5000);
     return () => clearInterval(interval);
-  }, [testimonials.length]);
+  }, []);
 
   useEffect(() => {
     if (slideRef.current) {
-      slideRef.current.style.transform = `translateX(-${currentSlide * 100}%)`;
+      const translateValue = `translateX(-${currentSlide * (100 / testimonials.length)}%)`;
+      slideRef.current.style.transform = translateValue;
     }
-  }, [currentSlide]);
+  }, [currentSlide, testimonials.length]);
 
   return (
     <section className="py-20 bg-dark-500/50 overflow-hidden">
@@ -100,14 +98,14 @@ const Testimonials: React.FC = () => {
 
           <button
             onClick={prevSlide}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 bg-dark-300 hover:bg-dark-200 text-white w-10 h-10 rounded-full flex items-center justify-center z-10 focus:outline-none"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 bg-dark-300 hover:bg-dark-200 text-white w-10 h-10 rounded-full flex items-center justify-center z-10 focus:outline-none transition-all duration-300 hover:scale-110"
             aria-label="Previous testimonial"
           >
             <ChevronLeft size={20} />
           </button>
           <button
             onClick={nextSlide}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 bg-dark-300 hover:bg-dark-200 text-white w-10 h-10 rounded-full flex items-center justify-center z-10 focus:outline-none"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 bg-dark-300 hover:bg-dark-200 text-white w-10 h-10 rounded-full flex items-center justify-center z-10 focus:outline-none transition-all duration-300 hover:scale-110"
             aria-label="Next testimonial"
           >
             <ChevronRight size={20} />
@@ -118,11 +116,13 @@ const Testimonials: React.FC = () => {
               <button
                 key={index}
                 onClick={() => setCurrentSlide(index)}
-                className={`w-2.5 h-2.5 rounded-full ${
-                  currentSlide === index ? 'bg-primary' : 'bg-dark-200'
+                className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
+                  currentSlide === index 
+                    ? 'bg-primary scale-125' 
+                    : 'bg-dark-200 hover:bg-primary/50'
                 }`}
                 aria-label={`Go to testimonial ${index + 1}`}
-              ></button>
+              />
             ))}
           </div>
         </div>
