@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
                 <path d="M2 17L12 22L22 17" />
                 <path d="M2 12L12 17L22 12" />
               </svg>
-              <span className="ml-2 text-xl font-bold text-white">AISCEND Automations</span>
+              <span className="ml-2 text-xl font-bold text-white">AISCEND</span>
             </div>
             <p className="text-white/60 mb-4">
               Building AI assistants that understand your business and data.
