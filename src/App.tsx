@@ -6,6 +6,7 @@ import Features from './components/Features';
 import ChatDemo from './components/ChatDemo';
 import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
+import Integrations from './components/Integrations';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 
@@ -33,6 +34,7 @@ function App() {
         <Hero />
         <ChatDemo />
         <Features />
+        <Integrations />
         <Pricing />
         <Testimonials />
         <FAQ />
