@@ -18,36 +18,6 @@ const ChatDemo: React.FC = () => {
   const webhookUrl = 'https://n8nwebhook.automatizacionesaiscend.com/webhook/landing';
 
   useEffect(() => {
-    const initialMessages = [
-      {
-        id: 1,
-        text: t('demo.message1'),
-        sender: 'user' as const,
-        time: '1:17 PM',
-      },
-      {
-        id: 2,
-        text: t('demo.response1'),
-        sender: 'assistant' as const,
-        time: '1:17 PM',
-      },
-      {
-        id: 3,
-        text: t('demo.message2'),
-        sender: 'user' as const,
-        time: '1:18 PM',
-      },
-      {
-        id: 4,
-        text: t('demo.response2'),
-        sender: 'assistant' as const,
-        time: '1:18 PM',
-      },
-    ];
-    setMessages(initialMessages);
-  }, [t]);
-
-  useEffect(() => {
     scrollToBottom();
   }, [messages]);
 
@@ -133,8 +103,8 @@ const ChatDemo: React.FC = () => {
           <div className="rounded-2xl overflow-hidden bg-dark-400 p-0">
             <div className="flex flex-col h-[500px]">
               <div className="bg-dark-300 px-4 py-3 flex items-center border-b border-dark-200">
-                <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary mr-3 animate-pulse">
-                  <Bot size={24} className="icon-float" />
+                <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary mr-3">
+                  <Bot size={24} className="gradient-icon" />
                 </div>
                 <div>
                   <h3 className="font-medium">AISCEND AI</h3>
@@ -152,7 +122,7 @@ const ChatDemo: React.FC = () => {
                   >
                     {message.sender === 'assistant' && (
                       <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary mr-2 flex-shrink-0">
-                        <Bot size={20} className="icon-float" />
+                        <Bot size={20} className="gradient-icon" />
                       </div>
                     )}
                     <div 
@@ -172,7 +142,7 @@ const ChatDemo: React.FC = () => {
                     </div>
                     {message.sender === 'user' && (
                       <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary ml-2 flex-shrink-0">
-                        <User size={20} className="icon-float" />
+                        <User size={20} className="gradient-icon" />
                       </div>
                     )}
                   </div>
@@ -180,7 +150,7 @@ const ChatDemo: React.FC = () => {
                 {loading && (
                   <div className="flex justify-start message-appear">
                     <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary mr-2 flex-shrink-0">
-                      <Bot size={20} className="animate-bounce" />
+                      <Bot size={20} className="gradient-icon" />
                     </div>
                     <div className="rounded-2xl px-4 py-3 max-w-[80%] bg-dark-300 text-white">
                       <div className="typing-animation flex space-x-1">
@@ -212,7 +182,7 @@ const ChatDemo: React.FC = () => {
                         : 'bg-primary hover:bg-primary/90'
                     } text-white transition-colors`}
                   >
-                    <Send size={18} className={loading ? '' : 'animate-pulse'} />
+                    <Send size={18} className="gradient-icon" />
                   </button>
                 </form>
               </div>
