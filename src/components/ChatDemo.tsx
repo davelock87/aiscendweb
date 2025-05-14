@@ -71,28 +71,24 @@ const ChatDemo: React.FC = () => {
 
       const data = await response.json();
 
-      setTimeout(() => {
-        const botResponse = {
-          id: messages.length + 2,
-          text: data.response || "I'm processing your request. Please allow me a moment.",
-          sender: 'assistant' as const,
-          time: formatTime(),
-        };
-        setMessages((prev) => [...prev, botResponse]);
-        setLoading(false);
-      }, 500);
+      const botResponse = {
+        id: messages.length + 2,
+        text: data.response || "I'm processing your request. Please allow me a moment.",
+        sender: 'assistant' as const,
+        time: formatTime(),
+      };
+      setMessages((prev) => [...prev, botResponse]);
+      setLoading(false);
     } catch (error) {
       console.error('Error:', error);
-      setTimeout(() => {
-        const botResponse = {
-          id: messages.length + 2,
-          text: "I apologize, but I'm having trouble connecting to the server. Please try again later.",
-          sender: 'assistant' as const,
-          time: formatTime(),
-        };
-        setMessages((prev) => [...prev, botResponse]);
-        setLoading(false);
-      }, 500);
+      const botResponse = {
+        id: messages.length + 2,
+        text: "I apologize, but I'm having trouble connecting to the server. Please try again later.",
+        sender: 'assistant' as const,
+        time: formatTime(),
+      };
+      setMessages((prev) => [...prev, botResponse]);
+      setLoading(false);
     }
   };
 
