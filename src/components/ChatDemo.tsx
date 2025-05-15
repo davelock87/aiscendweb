@@ -70,15 +70,15 @@ const ChatDemo: React.FC = () => {
       }
 
       const data = await response.json();
-      console.log("📬 webhook respondió:", data);
+      
       // Si viene un array, toma el primer elemento
-+ const payload = Array.isArray(data) ? data[0] : data;
-+ const botResponse = {
-+   id: messages.length + 2,
-+   text: payload.response ?? payload.output ?? "I'm processing your request. Please allow me a moment.",
-+   sender: 'assistant',
-+   time: formatTime(),
-+ };
++     const payload = Array.isArray(data) ? data[0] : data;
++     const botResponse = {
++     id: messages.length + 2,
++     text: payload.response ?? payload.output ?? "I'm processing your request. Please allow me a moment.",
++     sender: 'assistant',
++     time: formatTime(),
++     };
       setMessages((prev) => [...prev, botResponse]);
       setLoading(false);
     } catch (error) {
