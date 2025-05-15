@@ -73,9 +73,7 @@ const ChatDemo: React.FC = () => {
 
       const botResponse = {
         id: messages.length + 2,
-        text: data.response || "I'm processing your request. Please allow me a moment.",
-        sender: 'assistant' as const,
-        time: formatTime(),
+        text: data.response,
       };
       setMessages((prev) => [...prev, botResponse]);
       setLoading(false);
