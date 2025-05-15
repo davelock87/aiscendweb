@@ -70,7 +70,7 @@ const ChatDemo: React.FC = () => {
       }
 
       const data = await response.json();
-
+      console.log("📬 webhook respondió:", data);
       const botResponse = {
         id: messages.length + 2,
         text: data.response,
