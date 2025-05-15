@@ -71,12 +71,16 @@ const ChatDemo: React.FC = () => {
 
       const data = await response.json();
 
-      const botResponse = {
+      const payload = Array.isArray(data) ? data[0] : data;
+       const botResponse = {
         id: messages.length + 2,
-        text: data.response,
-        sender: 'assistant' as const,
+        text:
+        payload.response ??
+        payload.output   ??
+        "I'm processing your request. Please allow me a moment.",
+        sender: 'assistant',
         time: formatTime(),
-      };
+         };
       setMessages((prev) => [...prev, botResponse]);
       setLoading(false);
     } catch (error) {
