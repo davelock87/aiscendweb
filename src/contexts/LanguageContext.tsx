@@ -58,7 +58,7 @@ const translations = {
     // Pricing
     'pricing.title': 'Simple, Transparent Pricing',
     'pricing.subtitle': 'Choose the plan that works best for you and your team',
-    'pricing.free': 'Free',
+    'pricing.free': 'Starter',
     'pricing.pro': 'Pro',
     'pricing.enterprise': 'Enterprise',
     'pricing.freePrice': '$29',
@@ -89,7 +89,7 @@ const translations = {
     'pricing.enterprise4': 'Unlimited',
     'pricing.enterprise5': 'Advanced',
     'pricing.enterprise6': 'Dedicated Manager',
-    'pricing.startFree': 'Start Free',
+    'pricing.startFree': 'Start',
     'pricing.startPro': 'Go Pro',
     'pricing.contactSales': 'Contact Sales',
 
@@ -181,7 +181,7 @@ const translations = {
     // Pricing
     'pricing.title': 'Precios Simples y Transparentes',
     'pricing.subtitle': 'Elige el plan que mejor funcione para ti y tu equipo',
-    'pricing.free': 'Gratis',
+    'pricing.free': 'Inicio',
     'pricing.pro': 'Pro',
     'pricing.enterprise': 'Empresa',
     'pricing.freePrice': '$29',
@@ -212,7 +212,7 @@ const translations = {
     'pricing.enterprise4': 'Ilimitados',
     'pricing.enterprise5': 'Avanzado',
     'pricing.enterprise6': 'Gestor Dedicado',
-    'pricing.startFree': 'Comenzar Gratis',
+    'pricing.startFree': 'Comenzar',
     'pricing.startPro': 'Ir a Pro',
     'pricing.contactSales': 'Contactar Ventas',
 
