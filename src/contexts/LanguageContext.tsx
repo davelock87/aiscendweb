@@ -17,7 +17,7 @@ const translations = {
     'nav.home': 'Home',
     'nav.features': 'Features',
     'nav.pricing': 'Pricing',
-    'nav.demo': 'Demo',
+    'nav.demo': 'Chat',
     'nav.faq': 'FAQ',
     'nav.getStarted': 'Get Started',
 
