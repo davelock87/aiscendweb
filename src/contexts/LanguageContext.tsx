@@ -24,7 +24,7 @@ const translations = {
     // Hero
     'hero.title1': 'Craft an AI Assistant',
     'hero.title2': 'in Minutes!',
-    'hero.subtitle': 'Rapidly Develop a Tailored AI Assistant with OpenAI GPT-3.5: Seamlessly Connect to Resources and Upload Files for Comprehensive Assistance.',
+    'hero.subtitle': 'Rapidly Develop a Tailored AI Assistant with N8N: Seamlessly Connect to Resources and Upload Files for Comprehensive Assistance.',
     'hero.cta': 'Get Started',
     'hero.pricing': 'View Pricing',
     'hero.rotatingWords.0': 'Chatbots',
@@ -147,7 +147,7 @@ const translations = {
     // Hero
     'hero.title1': 'Crea un Asistente de IA',
     'hero.title2': '¡en Minutos!',
-    'hero.subtitle': 'Desarrolla rápidamente un Asistente de IA personalizado con OpenAI GPT-3.5: Conecta sin problemas a recursos y sube archivos para una asistencia integral.',
+    'hero.subtitle': 'Desarrolla rápidamente un Asistente de IA personalizado con N8N: Conecta sin problemas a recursos y sube archivos para una asistencia integral.',
     'hero.cta': 'Comenzar',
     'hero.pricing': 'Ver Precios',
     'hero.rotatingWords.0': 'Chatbots',
