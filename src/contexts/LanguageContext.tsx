@@ -140,7 +140,7 @@ const translations = {
     'nav.home': 'Inicio',
     'nav.features': 'Características',
     'nav.pricing': 'Precios',
-    'nav.demo': 'Demo',
+    'nav.demo': 'Chat',
     'nav.faq': 'Preguntas',
     'nav.getStarted': 'Comenzar',
 
