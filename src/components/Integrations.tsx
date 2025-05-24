@@ -27,8 +27,8 @@ interface IntegrationCardProps {
 
 const IntegrationCard: React.FC<IntegrationCardProps> = ({ icon, title, description }) => (
   <div className="bg-dark-300 p-6 rounded-xl transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl">
-    <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 text-primary">
-      {icon}
+    <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+      <div className="gradient-icon">{icon}</div>
     </div>
     <h3 className="text-lg font-semibold mb-2">{title}</h3>
     <p className="text-white/70 text-sm">{description}</p>
@@ -129,15 +129,15 @@ const Integrations: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Powerful Integrations & Enterprise Solutions
+            {t('integrations.title')}
           </h2>
           <p className="text-white/70 text-lg">
-            Connect with your favorite tools and automate your business processes
+            {t('integrations.subtitle')}
           </p>
         </div>
 
         <div className="mb-20">
-          <h3 className="text-2xl font-bold mb-8 text-center">Popular Integrations</h3>
+          <h3 className="text-2xl font-bold mb-8 text-center">{t('integrations.section1.title')}</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {integrations.map((integration, index) => (
               <IntegrationCard key={index} {...integration} />
@@ -146,7 +146,7 @@ const Integrations: React.FC = () => {
         </div>
 
         <div>
-          <h3 className="text-2xl font-bold mb-8 text-center">Enterprise Solutions</h3>
+          <h3 className="text-2xl font-bold mb-8 text-center">{t('integrations.section2.title')}</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {solutions.map((solution, index) => (
               <IntegrationCard key={index} {...solution} />

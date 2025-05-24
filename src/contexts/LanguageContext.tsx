@@ -134,6 +134,12 @@ const translations = {
     'footer.privacy': 'Privacy Policy',
     'footer.terms': 'Terms of Service',
     'footer.contact': 'Contact Us',
+
+    // Integrations
+    'integrations.title': 'Powerful Integrations & Enterprise Solutions',
+    'integrations.subtitle': 'Connect with your favorite tools and automate your business processes',
+    'integrations.section1.title': 'Popular Integrations',
+    'integrations.section2.title': 'Enterprise Solutions',
   },
   es: {
     // Navbar
@@ -257,6 +263,12 @@ const translations = {
     'footer.privacy': 'Política de Privacidad',
     'footer.terms': 'Términos de Servicio',
     'footer.contact': 'Contáctanos',
+
+    // Integrations
+    'integrations.title': 'Integraciones Potentes y Soluciones Empresariales',
+    'integrations.subtitle': 'Conéctate con tus herramientas favoritas y automatiza tus procesos de negocio',
+    'integrations.section1.title': 'Integraciones Populares',
+    'integrations.section2.title': 'Soluciones Empresariales',
   }
 };
 
