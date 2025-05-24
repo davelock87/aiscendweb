@@ -288,6 +288,10 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
     setLanguage(browserLang);
   }, []);
 
+  useEffect(() => {
+    document.documentElement.lang = language;
+  }, [language]);
+
   const t = (key: string): string => {
     return translations[language][key as keyof typeof translations[typeof language]] || key;
   };
