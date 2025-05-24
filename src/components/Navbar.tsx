@@ -25,6 +25,7 @@ const Navbar: React.FC = () => {
     { name: t('nav.demo'), href: '#demo' },
     { name: t('nav.pricing'), href: '#pricing' },
     { name: t('nav.faq'), href: '#faq' },
+    { name: t('nav.blog'), href: 'https://blog.automatizacionesaiscend.com/', external: true },
   ];
 
   return (
@@ -47,7 +48,9 @@ const Navbar: React.FC = () => {
               {navLinks.map((link) => (
                 <a 
                   key={link.name} 
-                  href={link.href} 
+                  href={link.href}
+                  target={link.external ? "_blank" : undefined}
+                  rel={link.external ? "noopener noreferrer" : undefined}
                   className="text-white/80 hover:text-white transition duration-150 font-medium"
                 >
                   {link.name}
@@ -100,6 +103,8 @@ const Navbar: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
+                target={link.external ? "_blank" : undefined}
+                rel={link.external ? "noopener noreferrer" : undefined}
                 className="block py-2 text-white/80 hover:text-white transition duration-150"
                 onClick={() => setIsOpen(false)}
               >
@@ -122,4 +127,4 @@ const Navbar: React.FC = () => {
   );
 };
 
-export default Navbar
+export default Navbar;

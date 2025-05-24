@@ -18,6 +18,7 @@ const translations = {
     'nav.pricing': 'Pricing',
     'nav.demo': 'Chat',
     'nav.faq': 'FAQ',
+    'nav.blog': 'Blog',
     'nav.getStarted': 'Get Started',
 
     // Hero
@@ -147,6 +148,7 @@ const translations = {
     'nav.pricing': 'Precios',
     'nav.demo': 'Chat',
     'nav.faq': 'Preguntas',
+    'nav.blog': 'Blog',
     'nav.getStarted': 'Comenzar',
 
     // Hero
