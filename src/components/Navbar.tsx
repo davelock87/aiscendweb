@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { Menu, X, Globe } from 'lucide-react';
+import { Menu, X, Globe, ChevronDown } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const { language, setLanguage, t } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [useCasesOpen, setUseCasesOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,12 +29,16 @@ const Navbar: React.FC = () => {
     { name: t('nav.blog'), href: 'https://blog.automatizacionesaiscend.com/', external: true },
   ];
 
+  const useCases = [
+    { name: t('nav.restaurants'), href: '/restaurants' },
+  ];
+
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-dark-500/90 backdrop-blur-lg py-2' : 'bg-transparent py-4'}`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <a href="#" className="flex items-center">
+            <a href="/" className="flex items-center">
               <svg className="h-8 w-8 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M12 2L2 7L12 12L22 7L12 2Z" />
                 <path d="M2 17L12 22L22 17" />
@@ -56,6 +61,31 @@ const Navbar: React.FC = () => {
                   {link.name}
                 </a>
               ))}
+              <div className="relative">
+                <button
+                  onClick={() => setUseCasesOpen(!useCasesOpen)}
+                  className="flex items-center text-white/80 hover:text-white transition duration-150 font-medium"
+                >
+                  {t('nav.useCases')}
+                  <ChevronDown className="ml-1 w-4 h-4" />
+                </button>
+                {useCasesOpen && (
+                  <div className="absolute top-full mt-2 w-48 rounded-md shadow-lg bg-dark-400 ring-1 ring-black ring-opacity-5">
+                    <div className="py-1" role="menu">
+                      {useCases.map((useCase) => (
+                        <a
+                          key={useCase.name}
+                          href={useCase.href}
+                          className="block px-4 py-2 text-sm text-white/80 hover:bg-dark-300 hover:text-white"
+                          role="menuitem"
+                        >
+                          {useCase.name}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
             <div className="flex items-center space-x-4">
               <button 
@@ -111,6 +141,29 @@ const Navbar: React.FC = () => {
                 {link.name}
               </a>
             ))}
+            <div className="py-2">
+              <button
+                onClick={() => setUseCasesOpen(!useCasesOpen)}
+                className="flex items-center text-white/80 hover:text-white transition duration-150"
+              >
+                {t('nav.useCases')}
+                <ChevronDown className="ml-1 w-4 h-4" />
+              </button>
+              {useCasesOpen && (
+                <div className="pl-4 mt-2 space-y-2">
+                  {useCases.map((useCase) => (
+                    <a
+                      key={useCase.name}
+                      href={useCase.href}
+                      className="block py-2 text-white/80 hover:text-white transition duration-150"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {useCase.name}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
             <a 
               href="https://wa.me/573228391374"
               target="_blank"

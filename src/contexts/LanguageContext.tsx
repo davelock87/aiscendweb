@@ -19,7 +19,9 @@ const translations = {
     'nav.demo': 'Chat',
     'nav.faq': 'FAQ',
     'nav.blog': 'Blog',
+    'nav.useCases': 'Use Cases',
     'nav.getStarted': 'Get Started',
+    'nav.restaurants': 'Restaurants',
 
     // Hero
     'hero.title1': 'Craft an AI Assistant',
@@ -149,7 +151,9 @@ const translations = {
     'nav.demo': 'Chat',
     'nav.faq': 'Preguntas',
     'nav.blog': 'Blog',
+    'nav.useCases': 'Casos de Uso',
     'nav.getStarted': 'Comenzar',
+    'nav.restaurants': 'Restaurantes',
 
     // Hero
     'hero.title1': 'Crea un Asistente de IA',
