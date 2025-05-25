@@ -1,18 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { 
-  Car,
-  MessageSquare,
-  Search,
-  Calendar,
-  FileText,
-  DollarSign,
-  BarChart,
-  Bot,
-  Shield,
-  Tool,
-  TrendingUp
-} from 'lucide-react';
+import { Car, MessageSquare, Search, Calendar, FileText, DollarSign, BarChart, Bot, Shield, PenTool as Tool, TrendingUp } from 'lucide-react';
 import Particles from './Particles';
 
 interface FeatureCardProps {
