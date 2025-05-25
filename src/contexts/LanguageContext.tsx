@@ -26,6 +26,7 @@ const translations = {
     'nav.academy': 'Academy',
     'nav.realestate': 'Real Estate',
     'nav.carsales': 'Car Sales',
+    'nav.ecommerce': 'E-commerce',
 
     // Academy
     'academy.hero.title': 'The Growth Accelerator',
@@ -375,6 +376,51 @@ const translations = {
     'carsales.cta.title': 'Ready to Revolutionize Your Dealership?',
     'carsales.cta.description': 'Join automotive dealers who are transforming their business with AI',
     'carsales.cta.button': 'Schedule a Demo',
+
+    // E-commerce
+    'ecommerce.title': 'AI-Powered Solutions for',
+    'ecommerce.subtitle': 'E-commerce Businesses',
+    'ecommerce.description': 'Transform your online store with intelligent automation that enhances customer experience and streamlines operations',
+    
+    'ecommerce.feature1.title': 'Smart Product Search',
+    'ecommerce.feature1.desc': 'AI-powered product recommendations and search optimization',
+    
+    'ecommerce.feature2.title': 'Inventory Management',
+    'ecommerce.feature2.desc': 'Automated stock tracking and reordering system',
+    
+    'ecommerce.feature3.title': 'Payment Processing',
+    'ecommerce.feature3.desc': 'Secure and efficient payment gateway integration',
+    
+    'ecommerce.feature4.title': 'Sales Analytics',
+    'ecommerce.feature4.desc': 'Real-time sales tracking and performance metrics',
+    
+    'ecommerce.feature5.title': 'Shipping Integration',
+    'ecommerce.feature5.desc': 'Automated shipping and delivery management',
+    
+    'ecommerce.feature6.title': 'Customer Analytics',
+    'ecommerce.feature6.desc': 'Deep insights into customer behavior and preferences',
+    
+    'ecommerce.feature7.title': 'Fraud Protection',
+    'ecommerce.feature7.desc': 'Advanced security measures and fraud detection',
+    
+    'ecommerce.feature8.title': 'AI Assistant',
+    'ecommerce.feature8.desc': 'Intelligent chatbot for customer support',
+
+    'ecommerce.benefits.title': 'Transform Your Online Store',
+    'ecommerce.benefits.description': 'Leverage AI technology to boost sales and improve customer satisfaction',
+    
+    'ecommerce.benefit1.title': 'Store Management',
+    'ecommerce.benefit1.desc': 'Efficiently manage your online store with automated systems',
+    
+    'ecommerce.benefit2.title': 'Customer Experience',
+    'ecommerce.benefit2.desc': 'Provide personalized shopping experiences',
+    
+    'ecommerce.benefit3.title': 'Revenue Growth',
+    'ecommerce.benefit3.desc': 'Increase sales through better conversion optimization',
+
+    'ecommerce.cta.title': 'Ready to Revolutionize Your E-commerce Business?',
+    'ecommerce.cta.description': 'Join online retailers who are transforming their business with AI',
+    'ecommerce.cta.button': 'Schedule a Demo',
   },
   es: {
     // Navbar
@@ -391,6 +437,7 @@ const translations = {
     'nav.academy': 'Academia',
     'nav.realestate': 'Bienes Raíces',
     'nav.carsales': 'Venta de Autos',
+    'nav.ecommerce': 'E-commerce',
 
     // Academy
     'academy.hero.title': 'El Acelerador de Crecimiento',
@@ -740,6 +787,51 @@ const translations = {
     'carsales.cta.title': '¿Listo para Revolucionar tu Concesionario?',
     'carsales.cta.description': 'Únete a los concesionarios que están transformando su negocio con IA',
     'carsales.cta.button': 'Programa una Demo',
+
+    // E-commerce
+    'ecommerce.title': 'Soluciones Impulsadas por IA para',
+    'ecommerce.subtitle': 'Negocios de E-commerce',
+    'ecommerce.description': 'Transforma tu tienda online con automatización inteligente que mejora la experiencia del cliente y optimiza las operaciones',
+    
+    'ecommerce.feature1.title': 'Búsqueda Inteligente',
+    'ecommerce.feature1.desc': 'Recomendaciones de productos y optimización de búsqueda con IA',
+    
+    'ecommerce.feature2.title': 'Gestión de Inventario',
+    'ecommerce.feature2.desc': 'Sistema automatizado de seguimiento y reposición de stock',
+    
+    'ecommerce.feature3.title': 'Procesamiento de Pagos',
+    'ecommerce.feature3.desc': 'Integración segura y eficiente de pasarelas de pago',
+    
+    'ecommerce.feature4.title': 'Análisis de Ventas',
+    'ecommerce.feature4.desc': 'Seguimiento de ventas y métricas de rendimiento en tiempo real',
+    
+    'ecommerce.feature5.title': 'Integración de Envíos',
+    'ecommerce.feature5.desc': 'Gestión automatizada de envíos y entregas',
+    
+    'ecommerce.feature6.title': 'Análisis de Clientes',
+    'ecommerce.feature6.desc': 'Insights profundos sobre comportamiento y preferencias',
+    
+    'ecommerce.feature7.title': 'Protección contra Fraude',
+    'ecommerce.feature7.desc': 'Medidas de seguridad avanzadas y detección de fraude',
+    
+    'ecommerce.feature8.title': 'Asistente IA',
+    'ecommerce.feature8.desc': 'Chatbot inteligente para atención al cliente',
+
+    'ecommerce.benefits.title': 'Transforma tu Tienda Online',
+    'ecommerce.benefits.description': 'Aprovecha la tecnología IA para impulsar ventas y mejorar la satisfacción del cliente',
+    
+    'ecommerce.benefit1.title': 'Gestión de Tienda',
+    'ecommerce.benefit1.desc': 'Gestiona eficientemente tu tienda online con sistemas automatizados',
+    
+    'ecommerce.benefit2.title': 'Experiencia del Cliente',
+    'ecommerce.benefit2.desc': 'Ofrece experiencias de compra personalizadas',
+    
+    'ecommerce.benefit3.title': 'Crecimiento de Ingresos',
+    'ecommerce.benefit3.desc': 'Aumenta las ventas mediante mejor optimización de conversión',
+
+    'ecommerce.cta.title': '¿Listo para Revolucionar tu Negocio de E-commerce?',
+    'ecommerce.cta.description': 'Únete a los minoristas online que están transformando su negocio con IA',
+    'ecommerce.cta.button': 'Programa una Demo',
   }
 };
 
