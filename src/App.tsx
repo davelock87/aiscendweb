@@ -13,6 +13,7 @@ import RestaurantAutomation from './components/RestaurantAutomation';
 import Academy from './components/Academy';
 import VCard from './components/VCard';
 import MedicalHealthcare from './components/MedicalHealthcare';
+import RealEstate from './components/RealEstate';
 
 function App() {
   const { language } = useLanguage();
@@ -42,6 +43,8 @@ function App() {
         return <VCard />;
       case '/medical':
         return <MedicalHealthcare />;
+      case '/realestate':
+        return <RealEstate />;
       default:
         return (
           <>
