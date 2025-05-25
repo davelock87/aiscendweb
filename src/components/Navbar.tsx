@@ -27,11 +27,11 @@ const Navbar: React.FC = () => {
     { name: t('nav.pricing'), href: '#pricing' },
     { name: t('nav.faq'), href: '#faq' },
     { name: t('nav.blog'), href: 'https://blog.automatizacionesaiscend.com/', external: true },
+    { name: t('nav.academy'), href: '/academy' },
   ];
 
   const useCases = [
     { name: t('nav.restaurants'), href: '/restaurants' },
-    { name: t('nav.academy'), href: '/academy' },
   ];
 
   return (
