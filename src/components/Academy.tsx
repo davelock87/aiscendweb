@@ -123,14 +123,14 @@ const Academy: React.FC = () => {
   ];
 
   return (
-    <div className="relative py-20">
+    <div className="relative min-h-screen">
       <Particles />
       <div className="container mx-auto px-4 relative z-10">
         {/* Hero Section */}
-        <div className="text-center max-w-4xl mx-auto mb-20">
+        <div className="text-center max-w-4xl mx-auto pt-32 pb-16">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             {t('academy.hero.title')}
-            <span className="gradient-text block mt-2">{t('academy.hero.subtitle')}</span>
+            <span className="gradient-text block mt-4">{t('academy.hero.subtitle')}</span>
           </h1>
           <p className="text-xl text-white/70 mb-8">
             {t('academy.hero.description')}
