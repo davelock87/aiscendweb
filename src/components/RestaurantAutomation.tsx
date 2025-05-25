@@ -49,82 +49,67 @@ const RestaurantAutomation: React.FC = () => {
   const features = [
     {
       icon: <MessageSquare className="w-6 h-6" />,
-      title: "Respuestas Multicanal",
-      description: "Gestión automática de mensajes en WhatsApp, Instagram y Messenger"
+      title: t('restaurant.feature1.title'),
+      description: t('restaurant.feature1.desc')
     },
     {
       icon: <MapPin className="w-6 h-6" />,
-      title: "Verificación de Entregas",
-      description: "Comprobación automática de códigos postales mediante Google Maps"
+      title: t('restaurant.feature2.title'),
+      description: t('restaurant.feature2.desc')
     },
     {
       icon: <Image className="w-6 h-6" />,
-      title: "Menú Visual",
-      description: "Envío de menú con imágenes atractivas de tus platillos"
+      title: t('restaurant.feature3.title'),
+      description: t('restaurant.feature3.desc')
     },
     {
       icon: <ShoppingCart className="w-6 h-6" />,
-      title: "Gestión de Pedidos",
-      description: "Recopilación de selecciones y sugerencia de complementos"
+      title: t('restaurant.feature4.title'),
+      description: t('restaurant.feature4.desc')
     },
     {
       icon: <CreditCard className="w-6 h-6" />,
-      title: "Enlaces de Pago",
-      description: "Generación automática de enlaces para pagos seguros"
+      title: t('restaurant.feature5.title'),
+      description: t('restaurant.feature5.desc')
     },
     {
       icon: <ChefHat className="w-6 h-6" />,
-      title: "Notificaciones a Cocina",
-      description: "Envío automático de pedidos confirmados a la cocina"
+      title: t('restaurant.feature6.title'),
+      description: t('restaurant.feature6.desc')
     },
     {
       icon: <Database className="w-6 h-6" />,
-      title: "Almacenamiento Seguro",
-      description: "Registro seguro de mensajes y datos de sesión"
+      title: t('restaurant.feature7.title'),
+      description: t('restaurant.feature7.desc')
     },
     {
       icon: <Bot className="w-6 h-6" />,
-      title: "IA Conversacional",
-      description: "Comunicación natural y amigable con los clientes"
+      title: t('restaurant.feature8.title'),
+      description: t('restaurant.feature8.desc')
     }
   ];
 
   const supportTiers = [
     {
-      title: "Soporte Básico",
-      price: "$150,000/hora",
-      hours: "Bloque mínimo: 1 hora",
-      description: "Soporte esencial para consultas generales y configuraciones básicas",
-      features: [
-        "Consultas generales del sistema",
-        "Asesoramiento en uso de plataforma",
-        "Configuración básica de plantillas",
-        "Soporte remoto por WhatsApp"
-      ]
+      title: t('restaurant.basic.title'),
+      price: t('restaurant.basic.price'),
+      hours: t('restaurant.basic.hours'),
+      description: t('restaurant.basic.desc'),
+      features: t('restaurant.basic.features')
     },
     {
-      title: "Soporte Técnico",
-      price: "$220,000/hora",
-      hours: "Bloque mínimo: 1 hora",
-      description: "Asistencia técnica avanzada y optimización de flujos",
-      features: [
-        "Resolución de problemas técnicos",
-        "Optimización de flujos existentes",
-        "Configuración avanzada",
-        "Soporte con acceso remoto"
-      ]
+      title: t('restaurant.technical.title'),
+      price: t('restaurant.technical.price'),
+      hours: t('restaurant.technical.hours'),
+      description: t('restaurant.technical.desc'),
+      features: t('restaurant.technical.features')
     },
     {
-      title: "Soporte Especializado",
-      price: "$320,000/hora",
-      hours: "Bloque mínimo: 2 horas",
-      description: "Soluciones especializadas y optimización avanzada",
-      features: [
-        "Diagnóstico de problemas complejos",
-        "Optimización de rendimiento",
-        "Configuración de integraciones",
-        "Documentación de cambios"
-      ]
+      title: t('restaurant.specialized.title'),
+      price: t('restaurant.specialized.price'),
+      hours: t('restaurant.specialized.hours'),
+      description: t('restaurant.specialized.desc'),
+      features: t('restaurant.specialized.features')
     }
   ];
 
@@ -133,11 +118,11 @@ const RestaurantAutomation: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Servicios de Automatización para
-            <span className="gradient-text block">Restaurantes</span>
+            {t('restaurant.title')}
+            <span className="gradient-text block">{t('restaurant.subtitle')}</span>
           </h1>
           <p className="text-xl text-white/70">
-            Automatiza la atención al cliente y gestión de pedidos de tu restaurante con inteligencia artificial
+            {t('restaurant.description')}
           </p>
         </div>
 
@@ -151,18 +136,15 @@ const RestaurantAutomation: React.FC = () => {
 
         <div className="bg-dark-400 rounded-2xl p-8 mb-20">
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Hecho con ❤️ para Restaurantes</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('restaurant.madeWithLove.title')}</h2>
             <p className="text-lg text-white/70">
-              Este flujo de trabajo fue creado especialmente para ti, que diriges un restaurante, 
-              una pequeña hamburguesería o un negocio de entrega lleno de corazón. Sé lo ocupados 
-              que pueden ser tus días, así que desarrollamos este asistente de IA para ayudarte a 
-              cuidar a tus clientes en todos los canales.
+              {t('restaurant.madeWithLove.desc')}
             </p>
           </div>
         </div>
 
         <div className="mb-20">
-          <h2 className="text-3xl font-bold text-center mb-12">Planes de Soporte</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">{t('restaurant.support.title')}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {supportTiers.map((tier, index) => (
               <PricingTier key={index} {...tier} />
@@ -171,9 +153,9 @@ const RestaurantAutomation: React.FC = () => {
         </div>
 
         <div className="bg-dark-400 rounded-2xl p-8 text-center">
-          <h2 className="text-3xl font-bold mb-6">¿Listo para Automatizar?</h2>
+          <h2 className="text-3xl font-bold mb-6">{t('restaurant.cta.title')}</h2>
           <p className="text-lg text-white/70 mb-8">
-            Contáctanos hoy y descubre cómo podemos ayudarte a hacer crecer tu negocio
+            {t('restaurant.cta.desc')}
           </p>
           <a
             href="https://wa.me/573228391374"
@@ -181,7 +163,7 @@ const RestaurantAutomation: React.FC = () => {
             rel="noopener noreferrer"
             className="gradient-button px-8 py-3 rounded-full text-white font-medium text-lg inline-block"
           >
-            Contactar por WhatsApp
+            {t('restaurant.cta.button')}
           </a>
         </div>
       </div>
