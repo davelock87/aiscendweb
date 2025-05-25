@@ -22,6 +22,44 @@ const translations = {
     'nav.useCases': 'Use Cases',
     'nav.getStarted': 'Get Started',
     'nav.restaurants': 'Restaurants',
+    'nav.academy': 'Academy',
+
+    // Academy
+    'academy.hero.title': 'The Growth Accelerator',
+    'academy.hero.subtitle': 'for Your Startup',
+    'academy.hero.description': 'We make your business gain more revenue at a glance with our comprehensive solutions and expert guidance.',
+    'academy.hero.cta': 'Get Started',
+
+    'academy.services.research': 'Market Research',
+    'academy.services.researchDesc': 'Deep market analysis and competitor research to position your business effectively.',
+    'academy.services.ux': 'User Experience',
+    'academy.services.uxDesc': 'Create intuitive and engaging user experiences that convert visitors into customers.',
+    'academy.services.marketing': 'Digital Marketing',
+    'academy.services.marketingDesc': 'Strategic digital marketing campaigns that drive growth and engagement.',
+    'academy.services.web': 'Web Development',
+    'academy.services.webDesc': 'Custom web solutions built with modern technologies and best practices.',
+    'academy.services.brand': 'Brand Design Identity',
+    'academy.services.brandDesc': 'Distinctive brand identity design that makes your business stand out.',
+    'academy.services.seo': 'SEO & SMM Services',
+    'academy.services.seoDesc': 'Optimize your online presence and social media strategy for maximum impact.',
+
+    'academy.benefits.strategy': 'Customer-Centric Strategy',
+    'academy.benefits.strategyDesc': 'Build a marketing strategy that puts your customers first and drives sustainable growth.',
+    'academy.benefits.data': 'Connect Your Data',
+    'academy.benefits.dataDesc': 'Integrate all your data sources in one place for better decision making.',
+    'academy.benefits.workflow': 'Streamlined Workflows',
+    'academy.benefits.workflowDesc': 'Optimize your business processes for maximum efficiency and productivity.',
+
+    'academy.features.growth': 'Proven Growth Strategy',
+    'academy.features.growthDesc': 'Implement strategies that have been proven to drive business growth.',
+    'academy.features.productivity': 'Enhanced Productivity',
+    'academy.features.productivityDesc': 'Achieve more with optimized workflows and automated processes.',
+    'academy.features.solution': 'Scalable Solutions',
+    'academy.features.solutionDesc': 'Solutions that grow with your business and adapt to your needs.',
+
+    'academy.cta.title': 'Ready to Accelerate Your Growth?',
+    'academy.cta.description': 'Join our program and transform your business with expert guidance and proven strategies.',
+    'academy.cta.button': 'Contact Us Now',
 
     // Hero
     'hero.title1': 'Craft an AI Assistant',
@@ -103,7 +141,7 @@ const translations = {
     'restaurant.specialized.title': 'Specialized Support',
     'restaurant.specialized.price': '$320,000/hour',
     'restaurant.specialized.hours': 'Minimum block: 2 hours',
-    'restaurant.specialized.desc': 'Specialized solutions and advanced optimization',
+    'restaurant.specialized.desc': 'Specialized solutions and optimization',
     'restaurant.specialized.features': [
       'Complex problem diagnosis',
       'Performance optimization',
@@ -211,6 +249,44 @@ const translations = {
     'nav.useCases': 'Casos de Uso',
     'nav.getStarted': 'Comenzar',
     'nav.restaurants': 'Restaurantes',
+    'nav.academy': 'Academia',
+
+    // Academy
+    'academy.hero.title': 'El Acelerador de Crecimiento',
+    'academy.hero.subtitle': 'para Tu Startup',
+    'academy.hero.description': 'Hacemos que tu negocio genere más ingresos de un vistazo con nuestras soluciones integrales y guía experta.',
+    'academy.hero.cta': 'Comenzar',
+
+    'academy.services.research': 'Investigación de Mercado',
+    'academy.services.researchDesc': 'Análisis profundo del mercado y la competencia para posicionar tu negocio efectivamente.',
+    'academy.services.ux': 'Experiencia de Usuario',
+    'academy.services.uxDesc': 'Crea experiencias intuitivas y atractivas que conviertan visitantes en clientes.',
+    'academy.services.marketing': 'Marketing Digital',
+    'academy.services.marketingDesc': 'Campañas estratégicas de marketing digital que impulsan el crecimiento.',
+    'academy.services.web': 'Desarrollo Web',
+    'academy.services.webDesc': 'Soluciones web personalizadas construidas con tecnologías modernas.',
+    'academy.services.brand': 'Diseño de Marca',
+    'academy.services.brandDesc': 'Diseño de identidad de marca distintiva que hace destacar tu negocio.',
+    'academy.services.seo': 'Servicios SEO y SMM',
+    'academy.services.seoDesc': 'Optimiza tu presencia online y estrategia en redes sociales.',
+
+    'academy.benefits.strategy': 'Estrategia Centrada en Cliente',
+    'academy.benefits.strategyDesc': 'Construye una estrategia de marketing que prioriza a tus clientes.',
+    'academy.benefits.data': 'Conecta tus Datos',
+    'academy.benefits.dataDesc': 'Integra todas tus fuentes de datos en un solo lugar.',
+    'academy.benefits.workflow': 'Flujos de Trabajo Optimizados',
+    'academy.benefits.workflowDesc': 'Optimiza tus procesos de negocio para máxima eficiencia.',
+
+    'academy.features.growth': 'Estrategia Probada',
+    'academy.features.growthDesc': 'Implementa estrategias que han demostrado impulsar el crecimiento.',
+    'academy.features.productivity': 'Mayor Productividad',
+    'academy.features.productivityDesc': 'Logra más con flujos de trabajo optimizados.',
+    'academy.features.solution': 'Soluciones Escalables',
+    'academy.features.solutionDesc': 'Soluciones que crecen con tu negocio.',
+
+    'academy.cta.title': '¿Listo para Acelerar tu Crecimiento?',
+    'academy.cta.description': 'Únete a nuestro programa y transforma tu negocio con guía experta.',
+    'academy.cta.button': 'Contáctanos Ahora',
 
     // Hero
     'hero.title1': 'Crea un Asistente de IA',

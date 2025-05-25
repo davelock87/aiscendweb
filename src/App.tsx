@@ -10,6 +10,7 @@ import Integrations from './components/Integrations';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import RestaurantAutomation from './components/RestaurantAutomation';
+import Academy from './components/Academy';
 
 function App() {
   const { language } = useLanguage();
@@ -29,13 +30,14 @@ function App() {
     }
   }, [language]);
 
-  return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <main className="flex-grow">
-        {path === '/restaurants' ? (
-          <RestaurantAutomation />
-        ) : (
+  const renderContent = () => {
+    switch (path) {
+      case '/restaurants':
+        return <RestaurantAutomation />;
+      case '/academy':
+        return <Academy />;
+      default:
+        return (
           <>
             <Hero />
             <ChatDemo />
@@ -45,7 +47,15 @@ function App() {
             <Testimonials />
             <FAQ />
           </>
-        )}
+        );
+    }
+  };
+
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <main className="flex-grow">
+        {renderContent()}
       </main>
       <Footer />
     </div>
