@@ -11,7 +11,6 @@ import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import RestaurantAutomation from './components/RestaurantAutomation';
 import Academy from './components/Academy';
-import VCard from './components/VCard';
 
 function App() {
   const { language } = useLanguage();
@@ -37,8 +36,6 @@ function App() {
         return <RestaurantAutomation />;
       case '/academy':
         return <Academy />;
-      case '/about':
-        return <VCard />;
       default:
         return (
           <>
