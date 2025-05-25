@@ -23,7 +23,6 @@ const Navbar: React.FC = () => {
 
   const navLinks = [
     { name: t('nav.features'), href: '#features' },
-    { name: t('nav.demo'), href: '#demo' },
     { name: t('nav.pricing'), href: '#pricing' },
     { name: t('nav.faq'), href: '#faq' },
     { name: t('nav.blog'), href: 'https://blog.automatizacionesaiscend.com/', external: true },
