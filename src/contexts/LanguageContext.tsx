@@ -25,6 +25,7 @@ const translations = {
     'nav.medical': 'Healthcare',
     'nav.academy': 'Academy',
     'nav.realestate': 'Real Estate',
+    'nav.carsales': 'Car Sales',
 
     // Academy
     'academy.hero.title': 'The Growth Accelerator',
@@ -329,6 +330,51 @@ const translations = {
     'realestate.cta.title': 'Ready to Revolutionize Your Real Estate Business?',
     'realestate.cta.description': 'Join real estate professionals who are transforming their business with AI',
     'realestate.cta.button': 'Schedule a Demo',
+
+    // Car Sales
+    'carsales.title': 'AI-Powered Solutions for',
+    'carsales.subtitle': 'Automotive Dealerships',
+    'carsales.description': 'Transform your car dealership with intelligent automation that streamlines sales processes and enhances customer relationships',
+    
+    'carsales.feature1.title': 'Inventory Search',
+    'carsales.feature1.desc': 'AI-powered vehicle matching based on customer preferences',
+    
+    'carsales.feature2.title': 'Lead Management',
+    'carsales.feature2.desc': 'Automated responses and follow-ups across multiple channels',
+    
+    'carsales.feature3.title': 'Test Drive Scheduler',
+    'carsales.feature3.desc': 'Smart scheduling system for test drives and viewings',
+    
+    'carsales.feature4.title': 'Document Processing',
+    'carsales.feature4.desc': 'Automated handling of sales and financing documents',
+    
+    'carsales.feature5.title': 'Finance Calculator',
+    'carsales.feature5.desc': 'Real-time payment and financing calculations',
+    
+    'carsales.feature6.title': 'Market Analysis',
+    'carsales.feature6.desc': 'Live market data and pricing intelligence',
+    
+    'carsales.feature7.title': 'Secure Transactions',
+    'carsales.feature7.desc': 'Protected payment processing and documentation',
+    
+    'carsales.feature8.title': 'AI Assistant',
+    'carsales.feature8.desc': 'Intelligent chatbot for vehicle inquiries',
+
+    'carsales.benefits.title': 'Transform Your Dealership',
+    'carsales.benefits.description': 'Leverage AI technology to streamline operations and boost sales',
+    
+    'carsales.benefit1.title': 'Inventory Management',
+    'carsales.benefit1.desc': 'Efficiently manage your vehicle inventory with automated systems',
+    
+    'carsales.benefit2.title': 'Service Integration',
+    'carsales.benefit2.desc': 'Seamlessly connect sales with service department',
+    
+    'carsales.benefit3.title': 'Sales Growth',
+    'carsales.benefit3.desc': 'Increase conversions through better lead management',
+
+    'carsales.cta.title': 'Ready to Revolutionize Your Dealership?',
+    'carsales.cta.description': 'Join automotive dealers who are transforming their business with AI',
+    'carsales.cta.button': 'Schedule a Demo',
   },
   es: {
     // Navbar
@@ -344,6 +390,7 @@ const translations = {
     'nav.medical': 'Sector Salud',
     'nav.academy': 'Academia',
     'nav.realestate': 'Bienes Raíces',
+    'nav.carsales': 'Venta de Autos',
 
     // Academy
     'academy.hero.title': 'El Acelerador de Crecimiento',
@@ -648,6 +695,51 @@ const translations = {
     'realestate.cta.title': '¿Listo para Revolucionar tu Negocio Inmobiliario?',
     'realestate.cta.description': 'Únete a los profesionales inmobiliarios que están transformando su negocio con IA',
     'realestate.cta.button': 'Programa una Demo',
+
+    // Car Sales
+    'carsales.title': 'Soluciones Impulsadas por IA para',
+    'carsales.subtitle': 'Concesionarios Automotrices',
+    'carsales.description': 'Transforma tu concesionario con automatización inteligente que optimiza los procesos de venta y mejora las relaciones con los clientes',
+    
+    'carsales.feature1.title': 'Búsqueda de Inventario',
+    'carsales.feature1.desc': 'Coincidencia de vehículos basada en IA según preferencias',
+    
+    'carsales.feature2.title': 'Gestión de Leads',
+    'carsales.feature2.desc': 'Respuestas automáticas y seguimiento en múltiples canales',
+    
+    'carsales.feature3.title': 'Agenda de Pruebas',
+    'carsales.feature3.desc': 'Sistema inteligente para programar pruebas de manejo',
+    
+    'carsales.feature4.title': 'Proceso Documental',
+    'carsales.feature4.desc': 'Gestión automatizada de documentos de venta y financiación',
+    
+    'carsales.feature5.title': 'Calculadora Financiera',
+    'carsales.feature5.desc': 'Cálculos de pagos y financiación en tiempo real',
+    
+    'carsales.feature6.title': 'Análisis de Mercado',
+    'carsales.feature6.desc': 'Datos de mercado e inteligencia de precios en vivo',
+    
+    'carsales.feature7.title': 'Transacciones Seguras',
+    'carsales.feature7.desc': 'Procesamiento y documentación de pagos protegidos',
+    
+    'carsales.feature8.title': 'Asistente IA',
+    'carsales.feature8.desc': 'Chatbot inteligente para consultas de vehículos',
+
+    'carsales.benefits.title': 'Transforma tu Concesionario',
+    'carsales.benefits.description': 'Aprovecha la tecnología IA para optimizar operaciones y aumentar ventas',
+    
+    'carsales.benefit1.title': 'Gestión de Inventario',
+    'carsales.benefit1.desc': 'Gestiona eficientemente tu inventario de vehículos',
+    
+    'carsales.benefit2.title': 'Integración de Servicios',
+    'carsales.benefit2.desc': 'Conecta ventas con el departamento de servicio',
+    
+    'carsales.benefit3.title': 'Crecimiento en Ventas',
+    'carsales.benefit3.desc': 'Aumenta conversiones con mejor gestión de leads',
+
+    'carsales.cta.title': '¿Listo para Revolucionar tu Concesionario?',
+    'carsales.cta.description': 'Únete a los concesionarios que están transformando su negocio con IA',
+    'carsales.cta.button': 'Programa una Demo',
   }
 };
 
