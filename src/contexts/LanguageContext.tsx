@@ -237,6 +237,51 @@ const translations = {
     'integrations.subtitle': 'Connect with your favorite tools and automate your business processes',
     'integrations.section1.title': 'Popular Integrations',
     'integrations.section2.title': 'Enterprise Solutions',
+
+    // Medical & Healthcare
+    'medical.title': 'AI-Powered Solutions for',
+    'medical.subtitle': 'Healthcare & Medical Practices',
+    'medical.description': 'Transform your medical practice with intelligent automation that enhances patient care and streamlines administrative tasks',
+    
+    'medical.feature1.title': 'Smart Scheduling',
+    'medical.feature1.desc': 'Automated appointment booking and intelligent schedule management',
+    
+    'medical.feature2.title': 'Patient Communication',
+    'medical.feature2.desc': 'Automated reminders and follow-ups across multiple channels',
+    
+    'medical.feature3.title': 'Digital Records',
+    'medical.feature3.desc': 'Secure electronic health records management and access',
+    
+    'medical.feature4.title': 'Wait Time Management',
+    'medical.feature4.desc': 'Real-time updates and queue management system',
+    
+    'medical.feature5.title': 'Health Monitoring',
+    'medical.feature5.desc': 'Remote patient monitoring and alert systems',
+    
+    'medical.feature6.title': 'Data Security',
+    'medical.feature6.desc': 'HIPAA-compliant data protection and encryption',
+    
+    'medical.feature7.title': 'Medical Integration',
+    'medical.feature7.desc': 'Integration with existing medical systems and EMRs',
+    
+    'medical.feature8.title': 'AI Assistant',
+    'medical.feature8.desc': 'Intelligent medical chatbot for patient inquiries',
+
+    'medical.compliance.title': 'Healthcare Compliance & Security',
+    'medical.compliance.description': 'Our platform is built with healthcare regulations in mind, ensuring your practice stays compliant while improving efficiency',
+    
+    'medical.benefit1.title': 'HIPAA Compliance',
+    'medical.benefit1.desc': 'Fully compliant with healthcare data protection regulations',
+    
+    'medical.benefit2.title': 'Data Encryption',
+    'medical.benefit2.desc': 'End-to-end encryption for all patient data and communications',
+    
+    'medical.benefit3.title': 'Audit Trails',
+    'medical.benefit3.desc': 'Comprehensive logging and tracking of all system activities',
+
+    'medical.cta.title': 'Ready to Transform Your Practice?',
+    'medical.cta.description': 'Join healthcare providers who are revolutionizing patient care with AI',
+    'medical.cta.button': 'Schedule a Demo'
   },
   es: {
     // Navbar
@@ -464,6 +509,51 @@ const translations = {
     'integrations.subtitle': 'Conéctate con tus herramientas favoritas y automatiza tus procesos de negocio',
     'integrations.section1.title': 'Integraciones Populares',
     'integrations.section2.title': 'Soluciones Empresariales',
+
+    // Medical & Healthcare
+    'medical.title': 'Soluciones Impulsadas por IA para',
+    'medical.subtitle': 'Salud y Prácticas Médicas',
+    'medical.description': 'Transforma tu práctica médica con automatización inteligente que mejora la atención al paciente y optimiza las tareas administrativas',
+    
+    'medical.feature1.title': 'Agenda Inteligente',
+    'medical.feature1.desc': 'Reserva automatizada de citas y gestión inteligente de horarios',
+    
+    'medical.feature2.title': 'Comunicación con Pacientes',
+    'medical.feature2.desc': 'Recordatorios y seguimientos automatizados en múltiples canales',
+    
+    'medical.feature3.title': 'Registros Digitales',
+    'medical.feature3.desc': 'Gestión y acceso seguro a registros médicos electrónicos',
+    
+    'medical.feature4.title': 'Gestión de Espera',
+    'medical.feature4.desc': 'Actualizaciones en tiempo real y sistema de gestión de colas',
+    
+    'medical.feature5.title': 'Monitoreo de Salud',
+    'medical.feature5.desc': 'Sistema de monitoreo remoto y alertas de pacientes',
+    
+    'medical.feature6.title': 'Seguridad de Datos',
+    'medical.feature6.desc': 'Protección y encriptación de datos compatible con HIPAA',
+    
+    'medical.feature7.title': 'Integración Médica',
+    'medical.feature7.desc': 'Integración con sistemas médicos existentes y EMR',
+    
+    'medical.feature8.title': 'Asistente IA',
+    'medical.feature8.desc': 'Chatbot médico inteligente para consultas de pacientes',
+
+    'medical.compliance.title': 'Cumplimiento y Seguridad en Salud',
+    'medical.compliance.description': 'Nuestra plataforma está construida considerando las regulaciones de salud, asegurando que tu práctica cumpla las normas mientras mejora la eficiencia',
+    
+    'medical.benefit1.title': 'Cumplimiento HIPAA',
+    'medical.benefit1.desc': 'Totalmente compatible con regulaciones de protección de datos médicos',
+    
+    'medical.benefit2.title': 'Encriptación de Datos',
+    'medical.benefit2.desc': 'Encriptación de extremo a extremo para todos los datos y comunicaciones',
+    
+    'medical.benefit3.title': 'Registro de Auditoría',
+    'medical.benefit3.desc': 'Registro y seguimiento completo de todas las actividades del sistema',
+
+    'medical.cta.title': '¿Listo para Transformar tu Práctica?',
+    'medical.cta.description': 'Únete a los proveedores de salud que están revolucionando la atención al paciente con IA',
+    'medical.cta.button': 'Programa una Demo'
   }
 };
 

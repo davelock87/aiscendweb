@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import RestaurantAutomation from './components/RestaurantAutomation';
 import Academy from './components/Academy';
 import VCard from './components/VCard';
+import MedicalHealthcare from './components/MedicalHealthcare';
 
 function App() {
   const { language } = useLanguage();
@@ -39,6 +40,8 @@ function App() {
         return <Academy />;
       case '/vcard':
         return <VCard />;
+      case '/medical':
+        return <MedicalHealthcare />;
       default:
         return (
           <>
