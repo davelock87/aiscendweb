@@ -34,6 +34,7 @@ const Navbar: React.FC = () => {
     { name: t('nav.medical'), href: '/medical' },
     { name: t('nav.realestate'), href: '/realestate' },
     { name: t('nav.carsales'), href: '/carsales' },
+    { name: t('nav.ecommerce'), href: '/ecommerce' },
   ];
 
   return (

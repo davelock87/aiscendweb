@@ -15,6 +15,7 @@ import VCard from './components/VCard';
 import MedicalHealthcare from './components/MedicalHealthcare';
 import RealEstate from './components/RealEstate';
 import CarSales from './components/CarSales';
+import Ecommerce from './components/Ecommerce';
 
 function App() {
   const { language } = useLanguage();
@@ -48,6 +49,8 @@ function App() {
         return <RealEstate />;
       case '/carsales':
         return <CarSales />;
+      case '/ecommerce':
+        return <Ecommerce />;
       default:
         return (
           <>
@@ -73,5 +76,3 @@ function App() {
     </div>
   );
 }
-
-export default App
