@@ -14,6 +14,7 @@ import {
   LineChart,
   Zap
 } from 'lucide-react';
+import Particles from './Particles';
 
 interface FeatureCardProps {
   icon: React.ReactNode;
@@ -122,8 +123,9 @@ const Academy: React.FC = () => {
   ];
 
   return (
-    <div className="py-20">
-      <div className="container mx-auto px-4">
+    <div className="relative py-20">
+      <Particles />
+      <div className="container mx-auto px-4 relative z-10">
         {/* Hero Section */}
         <div className="text-center max-w-4xl mx-auto mb-20">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
