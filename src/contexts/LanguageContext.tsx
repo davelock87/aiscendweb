@@ -24,6 +24,7 @@ const translations = {
     'nav.restaurants': 'Restaurants',
     'nav.medical': 'Healthcare',
     'nav.academy': 'Academy',
+    'nav.realestate': 'Real Estate',
 
     // Academy
     'academy.hero.title': 'The Growth Accelerator',
@@ -282,7 +283,52 @@ const translations = {
 
     'medical.cta.title': 'Ready to Transform Your Practice?',
     'medical.cta.description': 'Join healthcare providers who are revolutionizing patient care with AI',
-    'medical.cta.button': 'Schedule a Demo'
+    'medical.cta.button': 'Schedule a Demo',
+
+    // Real Estate
+    'realestate.title': 'AI-Powered Solutions for',
+    'realestate.subtitle': 'Real Estate Professionals',
+    'realestate.description': 'Transform your real estate business with intelligent automation that streamlines property management and enhances client relationships',
+    
+    'realestate.feature1.title': 'Property Search',
+    'realestate.feature1.desc': 'AI-powered property matching based on client preferences',
+    
+    'realestate.feature2.title': 'Client Communication',
+    'realestate.feature2.desc': 'Automated responses and follow-ups across multiple channels',
+    
+    'realestate.feature3.title': 'Viewing Scheduler',
+    'realestate.feature3.desc': 'Smart scheduling system for property viewings',
+    
+    'realestate.feature4.title': 'Document Management',
+    'realestate.feature4.desc': 'Automated document processing and organization',
+    
+    'realestate.feature5.title': 'Property Access',
+    'realestate.feature5.desc': 'Secure digital key management and access control',
+    
+    'realestate.feature6.title': 'Market Analysis',
+    'realestate.feature6.desc': 'Real-time market data and property valuations',
+    
+    'realestate.feature7.title': 'Secure Transactions',
+    'realestate.feature7.desc': 'Protected payment processing and documentation',
+    
+    'realestate.feature8.title': 'AI Assistant',
+    'realestate.feature8.desc': 'Intelligent chatbot for property inquiries',
+
+    'realestate.benefits.title': 'Transform Your Real Estate Business',
+    'realestate.benefits.description': 'Leverage AI technology to streamline operations and provide exceptional service',
+    
+    'realestate.benefit1.title': 'Property Management',
+    'realestate.benefit1.desc': 'Efficiently manage multiple properties with automated systems',
+    
+    'realestate.benefit2.title': 'Client Satisfaction',
+    'realestate.benefit2.desc': 'Provide instant responses and personalized service',
+    
+    'realestate.benefit3.title': 'Revenue Growth',
+    'realestate.benefit3.desc': 'Increase sales through better lead management and follow-up',
+
+    'realestate.cta.title': 'Ready to Revolutionize Your Real Estate Business?',
+    'realestate.cta.description': 'Join real estate professionals who are transforming their business with AI',
+    'realestate.cta.button': 'Schedule a Demo',
   },
   es: {
     // Navbar
@@ -297,6 +343,7 @@ const translations = {
     'nav.restaurants': 'Restaurantes',
     'nav.medical': 'Sector Salud',
     'nav.academy': 'Academia',
+    'nav.realestate': 'Bienes Raíces',
 
     // Academy
     'academy.hero.title': 'El Acelerador de Crecimiento',
@@ -555,7 +602,52 @@ const translations = {
 
     'medical.cta.title': '¿Listo para Transformar tu Práctica?',
     'medical.cta.description': 'Únete a los proveedores de salud que están revolucionando la atención al paciente con IA',
-    'medical.cta.button': 'Programa una Demo'
+    'medical.cta.button': 'Programa una Demo',
+
+    // Real Estate
+    'realestate.title': 'Soluciones Impulsadas por IA para',
+    'realestate.subtitle': 'Profesionales Inmobiliarios',
+    'realestate.description': 'Transforma tu negocio inmobiliario con automatización inteligente que optimiza la gestión de propiedades y mejora las relaciones con los clientes',
+    
+    'realestate.feature1.title': 'Búsqueda de Propiedades',
+    'realestate.feature1.desc': 'Coincidencia de propiedades basada en IA según preferencias',
+    
+    'realestate.feature2.title': 'Comunicación con Clientes',
+    'realestate.feature2.desc': 'Respuestas automáticas y seguimiento en múltiples canales',
+    
+    'realestate.feature3.title': 'Programador de Visitas',
+    'realestate.feature3.desc': 'Sistema inteligente para programar visitas a propiedades',
+    
+    'realestate.feature4.title': 'Gestión de Documentos',
+    'realestate.feature4.desc': 'Procesamiento y organización automatizada de documentos',
+    
+    'realestate.feature5.title': 'Acceso a Propiedades',
+    'realestate.feature5.desc': 'Gestión segura de llaves digitales y control de acceso',
+    
+    'realestate.feature6.title': 'Análisis de Mercado',
+    'realestate.feature6.desc': 'Datos de mercado en tiempo real y valuaciones',
+    
+    'realestate.feature7.title': 'Transacciones Seguras',
+    'realestate.feature7.desc': 'Procesamiento y documentación de pagos protegidos',
+    
+    'realestate.feature8.title': 'Asistente IA',
+    'realestate.feature8.desc': 'Chatbot inteligente para consultas de propiedades',
+
+    'realestate.benefits.title': 'Transforma tu Negocio Inmobiliario',
+    'realestate.benefits.description': 'Aprovecha la tecnología IA para optimizar operaciones y brindar un servicio excepcional',
+    
+    'realestate.benefit1.title': 'Gestión de Propiedades',
+    'realestate.benefit1.desc': 'Gestiona múltiples propiedades eficientemente con sistemas automatizados',
+    
+    'realestate.benefit2.title': 'Satisfacción del Cliente',
+    'realestate.benefit2.desc': 'Proporciona respuestas instantáneas y servicio personalizado',
+    
+    'realestate.benefit3.title': 'Crecimiento de Ingresos',
+    'realestate.benefit3.desc': 'Aumenta las ventas mediante mejor gestión de leads y seguimiento',
+
+    'realestate.cta.title': '¿Listo para Revolucionar tu Negocio Inmobiliario?',
+    'realestate.cta.description': 'Únete a los profesionales inmobiliarios que están transformando su negocio con IA',
+    'realestate.cta.button': 'Programa una Demo',
   }
 };
 
