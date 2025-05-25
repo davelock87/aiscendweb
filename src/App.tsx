@@ -14,6 +14,7 @@ import Academy from './components/Academy';
 import VCard from './components/VCard';
 import MedicalHealthcare from './components/MedicalHealthcare';
 import RealEstate from './components/RealEstate';
+import CarSales from './components/CarSales';
 
 function App() {
   const { language } = useLanguage();
@@ -45,6 +46,8 @@ function App() {
         return <MedicalHealthcare />;
       case '/realestate':
         return <RealEstate />;
+      case '/carsales':
+        return <CarSales />;
       default:
         return (
           <>
@@ -70,5 +73,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
