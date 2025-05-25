@@ -31,6 +31,7 @@ const Navbar: React.FC = () => {
 
   const useCases = [
     { name: t('nav.restaurants'), href: '/restaurants' },
+    { name: t('nav.academy'), href: '/academy' },
   ];
 
   return (
