@@ -22,6 +22,7 @@ const translations = {
     'nav.useCases': 'Use Cases',
     'nav.getStarted': 'Get Started',
     'nav.restaurants': 'Restaurants',
+    'nav.medical': 'Healthcare',
     'nav.academy': 'Academy',
 
     // Academy
@@ -294,6 +295,7 @@ const translations = {
     'nav.useCases': 'Casos de Uso',
     'nav.getStarted': 'Comenzar',
     'nav.restaurants': 'Restaurantes',
+    'nav.medical': 'Sector Salud',
     'nav.academy': 'Academia',
 
     // Academy
@@ -482,7 +484,7 @@ const translations = {
     'faq.2.answer': 'Absolutamente. Utilizamos cifrado de nivel empresarial, medidas de cumplimiento SOC 2, y nunca almacenamos tus consultas o respuestas. La seguridad de tus datos es nuestra máxima prioridad.',
     'faq.3.question': '¿Cuánto conocimiento técnico se necesita para configurar un asistente?',
     'faq.3.answer': '¡Muy poco! Nuestra plataforma está diseñada para usuarios no técnicos con una interfaz simple para conectar fuentes de datos y entrenar asistentes. No se requiere programación.',
-    'faq.4.question': '¿Podemos personalizar las respuestas y el conocimiento de la IA?',
+    'faq.4.question': '¿Podemos personalizar las respuestas y el conocimiento de la  IA?',
     'faq.4.answer': 'Sí, tienes control total sobre la base de conocimientos, el tono y las capacidades de tu asistente. Puedes entrenarlo con tu documentación y establecer pautas específicas para las respuestas.',
 
     // Footer
