@@ -9,9 +9,11 @@ import Testimonials from './components/Testimonials';
 import Integrations from './components/Integrations';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import RestaurantAutomation from './components/RestaurantAutomation';
 
 function App() {
   const { language } = useLanguage();
+  const path = window.location.pathname;
 
   useEffect(() => {
     document.title = language === 'en' 
@@ -31,13 +33,19 @@ function App() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="flex-grow">
-        <Hero />
-        <ChatDemo />
-        <Features />
-        <Integrations />
-        <Pricing />
-        <Testimonials />
-        <FAQ />
+        {path === '/restaurants' ? (
+          <RestaurantAutomation />
+        ) : (
+          <>
+            <Hero />
+            <ChatDemo />
+            <Features />
+            <Integrations />
+            <Pricing />
+            <Testimonials />
+            <FAQ />
+          </>
+        )}
       </main>
       <Footer />
     </div>
