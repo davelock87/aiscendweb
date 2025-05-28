@@ -42,7 +42,7 @@ const AboutUs: React.FC = () => {
           </h1>
           <p className="text-xl text-white/70">
             {language === 'en' 
-              ? 'Meet the experts behind AISCEND's innovative solutions'
+              ? 'Meet the experts behind AISCEND\'s innovative solutions'
               : 'Conoce a los expertos detrás de las soluciones innovadoras de AISCEND'}
           </p>
         </div>
