@@ -16,6 +16,8 @@ import MedicalHealthcare from './components/MedicalHealthcare';
 import RealEstate from './components/RealEstate';
 import CarSales from './components/CarSales';
 import Ecommerce from './components/Ecommerce';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import TermsOfService from './components/TermsOfService';
 
 function App() {
   const { language } = useLanguage();
@@ -51,6 +53,10 @@ function App() {
         return <CarSales />;
       case '/ecommerce':
         return <Ecommerce />;
+      case '/privacy':
+        return <PrivacyPolicy />;
+      case '/terms':
+        return <TermsOfService />;
       default:
         return (
           <>
@@ -77,4 +83,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
