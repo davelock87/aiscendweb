@@ -479,7 +479,7 @@ const translations = {
     // Hero
     'hero.title1': 'Crea un Asistente de IA',
     'hero.title2': '¡en Minutos!',
-    'hero.subtitle': 'Desarrolla rápidamente un Asistente de IA personalizado con Aiscend: Conecta sin problemas a recursos y sube archivos para una asistencia integral.',
+    'hero.subtitle': 'Desarrolla rápidamente un Asistente de IA personalizado con Aiscend Automatizaciones: Conecta sin problemas a recursos y sube archivos para una asistencia integral.',
     'hero.cta': 'Comenzar',
     'hero.pricing': 'Ver Precios',
     'hero.rotatingWords.0': 'Chatbots',
