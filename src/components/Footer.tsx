@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white/60 hover:text-primary transition-colors">
+                <a href="https://blog.automatizacionesaiscend.com/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-primary transition-colors">
                   {t('footer.blog')}
                 </a>
               </li>
@@ -100,13 +100,13 @@ const Footer: React.FC = () => {
         <div className="border-t border-dark-300 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 text-sm">{t('footer.copyright')}</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-white/60 text-sm hover:text-primary transition-colors">
+            <a href="/privacy" className="text-white/60 text-sm hover:text-primary transition-colors">
               {t('footer.privacy')}
             </a>
-            <a href="#" className="text-white/60 text-sm hover:text-primary transition-colors">
+            <a href="/terms" className="text-white/60 text-sm hover:text-primary transition-colors">
               {t('footer.terms')}
             </a>
-            <a href="#" className="text-white/60 text-sm hover:text-primary transition-colors">
+            <a href="https://wa.me/573228391374" target="_blank" rel="noopener noreferrer" className="text-white/60 text-sm hover:text-primary transition-colors">
               {t('footer.contact')}
             </a>
           </div>
