@@ -91,7 +91,7 @@ const Footer: React.FC = () => {
             <h3 className="text-white font-semibold mb-4">{t('footer.company')}</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-white/60 hover:text-primary transition-colors">
+                <a href="/about" className="text-white/60 hover:text-primary transition-colors">
                   {t('footer.about')}
                 </a>
               </li>
