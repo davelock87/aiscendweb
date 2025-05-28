@@ -18,6 +18,7 @@ import CarSales from './components/CarSales';
 import Ecommerce from './components/Ecommerce';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsOfService from './components/TermsOfService';
+import AboutUs from './components/AboutUs';
 
 function App() {
   const { language } = useLanguage();
@@ -57,6 +58,8 @@ function App() {
         return <PrivacyPolicy />;
       case '/terms':
         return <TermsOfService />;
+      case '/about':
+        return <AboutUs />;
       default:
         return (
           <>
