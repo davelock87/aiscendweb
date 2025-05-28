@@ -96,7 +96,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white/60 hover:text-primary transition-colors">
+                <a href="/careers" className="text-white/60 hover:text-primary transition-colors">
                   {t('footer.careers')}
                 </a>
               </li>

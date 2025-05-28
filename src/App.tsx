@@ -19,6 +19,7 @@ import Ecommerce from './components/Ecommerce';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsOfService from './components/TermsOfService';
 import AboutUs from './components/AboutUs';
+import Careers from './components/Careers';
 
 function App() {
   const { language } = useLanguage();
@@ -60,6 +61,8 @@ function App() {
         return <TermsOfService />;
       case '/about':
         return <AboutUs />;
+      case '/careers':
+        return <Careers />;
       default:
         return (
           <>
