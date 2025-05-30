@@ -101,10 +101,10 @@ function App() {
             <ChatDemo />
             <Features />
             <Integrations />
-            <Clients />
             <Pricing />
             <Testimonials />
             <FAQ />
+            <Clients />
           </>
         );
     }

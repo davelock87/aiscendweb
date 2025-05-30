@@ -9,19 +9,16 @@ const Clients: React.FC = () => {
       name: 'Beca Moda',
       logo: '/logo600.png',
       url: 'https://becamoda.com/',
-      grayscaleClass: 'brightness-0 invert opacity-50',
     },
     {
       name: 'Tu Compras',
       logo: '/tucompras.jpg',
       url: 'https://tucomprascol.com/',
-      grayscaleClass: 'brightness-0 opacity-50',
     },
     {
       name: 'CSoft',
       logo: '/LOGO DE CSOFT blanco svg-svg.png',
       url: 'https://csoft.co/',
-      grayscaleClass: 'brightness-0 invert opacity-50',
     },
   ];
 
@@ -38,12 +35,12 @@ const Clients: React.FC = () => {
               href={client.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative"
+              className="block"
             >
               <img
                 src={client.logo}
                 alt={client.name}
-                className={`h-12 md:h-16 w-auto object-contain transition-all duration-300 ${client.grayscaleClass} group-hover:filter-none group-hover:opacity-100`}
+                className="h-12 md:h-16 w-auto object-contain"
               />
             </a>
           ))}
