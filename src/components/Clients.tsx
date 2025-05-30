@@ -7,7 +7,7 @@ const Clients: React.FC = () => {
   const clients = [
     {
       name: 'Beca Moda',
-      logo: '/logo600.png',
+      logo: '/Diseño sin título.png',
       url: 'https://becamoda.com/',
     },
     {
@@ -24,6 +24,11 @@ const Clients: React.FC = () => {
       name: 'Mi Local',
       logo: '/logo 80x80.png',
       url: 'https://milocal.com.co/',
+    },
+    {
+      name: 'Quality Tech',
+      logo: '/cropped-cropped-cropped-QT-LOGO-PW-200x66 copy.png',
+      url: 'https://www.qualitytech-id.com/',
     },
   ];
 
