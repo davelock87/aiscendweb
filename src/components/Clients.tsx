@@ -7,12 +7,12 @@ const Clients: React.FC = () => {
   const clients = [
     {
       name: 'Beca Moda',
-      logo: '/BECAMODAVECTOR.svg',
+      logo: '/BECAMODAVECTORWHITE.svg',
       url: 'https://becamoda.com/',
     },
     {
       name: 'Tu Compras',
-      logo: '/cropped-cropped-cropped-cropped-QT-LOGO-PW-200x66-1-100x89.png.webp',
+      logo: '/tucompras.jpg',
       url: 'https://tucomprascol.com/',
     },
     {
@@ -24,11 +24,6 @@ const Clients: React.FC = () => {
       name: 'Mi Local',
       logo: '/logo 80x80.png',
       url: 'https://milocal.com.co/',
-    },
-    {
-      name: 'Quality Tech',
-      logo: '/cropped-cropped-cropped-QT-LOGO-PW-200x66 copy.png',
-      url: 'https://www.qualitytech-id.com/',
     },
   ];
 
@@ -45,12 +40,12 @@ const Clients: React.FC = () => {
               href={client.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block transform transition-all duration-300 hover:scale-110 hover:-translate-y-2"
+              className="block"
             >
               <img
                 src={client.logo}
                 alt={client.name}
-                className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 hover:brightness-125 transition-all duration-500"
+                className="h-12 md:h-16 w-auto object-contain"
               />
             </a>
           ))}
