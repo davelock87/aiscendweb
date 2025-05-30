@@ -45,12 +45,12 @@ const Clients: React.FC = () => {
               href={client.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block"
+              className="block transform transition-all duration-300 hover:scale-110 hover:-translate-y-2"
             >
               <img
                 src={client.logo}
                 alt={client.name}
-                className="h-12 md:h-16 w-auto object-contain"
+                className="h-12 md:h-16 w-auto object-contain filter hover:brightness-125 transition-all duration-300"
               />
             </a>
           ))}
