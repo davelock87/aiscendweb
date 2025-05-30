@@ -1,6 +1,18 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { Car, MessageSquare, Search, Calendar, FileText, DollarSign, BarChart, Bot, Shield, PenTool as Tool, TrendingUp } from 'lucide-react';
+import { 
+  Car, 
+  MessageSquare, 
+  Search, 
+  Calendar, 
+  FileText, 
+  DollarSign, 
+  BarChart, 
+  Bot, 
+  Shield, 
+  PenTool as Tool, 
+  TrendingUp 
+} from 'lucide-react';
 import Particles from './Particles';
 
 interface FeatureCardProps {
@@ -115,7 +127,7 @@ const CarSales: React.FC = () => {
           </p>
         </div>
 
-        <div className="mb-20">
+        <div className="mb-32">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {features.map((feature, index) => (
               <FeatureCard key={index} {...feature} />
@@ -123,7 +135,7 @@ const CarSales: React.FC = () => {
           </div>
         </div>
 
-        <div className="bg-dark-400 rounded-2xl p-8 mb-20">
+        <div className="bg-dark-400 rounded-2xl p-8 mb-32">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">{t('carsales.benefits.title')}</h2>
             <p className="text-lg text-white/70">
