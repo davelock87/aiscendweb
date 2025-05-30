@@ -20,6 +20,7 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsOfService from './components/TermsOfService';
 import AboutUs from './components/AboutUs';
 import Careers from './components/Careers';
+import Clients from './components/Clients';
 
 function App() {
   const { language } = useLanguage();
@@ -42,19 +43,49 @@ function App() {
   const renderContent = () => {
     switch (path) {
       case '/restaurants':
-        return <RestaurantAutomation />;
+        return (
+          <>
+            <RestaurantAutomation />
+            <Clients />
+          </>
+        );
       case '/academy':
-        return <Academy />;
+        return (
+          <>
+            <Academy />
+            <Clients />
+          </>
+        );
       case '/vcard':
         return <VCard />;
       case '/medical':
-        return <MedicalHealthcare />;
+        return (
+          <>
+            <MedicalHealthcare />
+            <Clients />
+          </>
+        );
       case '/realestate':
-        return <RealEstate />;
+        return (
+          <>
+            <RealEstate />
+            <Clients />
+          </>
+        );
       case '/carsales':
-        return <CarSales />;
+        return (
+          <>
+            <CarSales />
+            <Clients />
+          </>
+        );
       case '/ecommerce':
-        return <Ecommerce />;
+        return (
+          <>
+            <Ecommerce />
+            <Clients />
+          </>
+        );
       case '/privacy':
         return <PrivacyPolicy />;
       case '/terms':
@@ -70,6 +101,7 @@ function App() {
             <ChatDemo />
             <Features />
             <Integrations />
+            <Clients />
             <Pricing />
             <Testimonials />
             <FAQ />
