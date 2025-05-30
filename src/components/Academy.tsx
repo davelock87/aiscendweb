@@ -126,7 +126,6 @@ const Academy: React.FC = () => {
     <div className="relative min-h-screen">
       <Particles />
       <div className="container mx-auto px-4 relative z-10">
-        {/* Hero Section */}
         <div className="text-center max-w-4xl mx-auto pt-32 pb-16">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             {t('academy.hero.title')}
@@ -143,8 +142,7 @@ const Academy: React.FC = () => {
           </a>
         </div>
 
-        {/* Services Grid */}
-        <div className="mb-20">
+        <div className="mb-32">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <FeatureCard key={index} {...service} />
@@ -152,8 +150,7 @@ const Academy: React.FC = () => {
           </div>
         </div>
 
-        {/* Benefits Section */}
-        <div className="bg-dark-400 rounded-2xl p-8 mb-20">
+        <div className="bg-dark-400 rounded-2xl p-8 mb-32">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {benefits.map((benefit, index) => (
               <Benefit key={index} {...benefit} />
@@ -161,14 +158,12 @@ const Academy: React.FC = () => {
           </div>
         </div>
 
-        {/* Features Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-32">
           {features.map((feature, index) => (
             <FeatureCard key={index} {...feature} />
           ))}
         </div>
 
-        {/* CTA Section */}
         <div className="bg-dark-400 rounded-2xl p-8 text-center">
           <h2 className="text-3xl font-bold mb-6">{t('academy.cta.title')}</h2>
           <p className="text-lg text-white/70 mb-8">
