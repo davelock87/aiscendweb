@@ -7,7 +7,7 @@ const Clients: React.FC = () => {
   const clients = [
     {
       name: 'Beca Moda',
-      logo: '/BeCa webl.png',
+      logo: '/BECAMODAVECTOR.svg',
       url: 'https://becamoda.com/',
     },
     {
