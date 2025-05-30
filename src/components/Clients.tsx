@@ -50,7 +50,7 @@ const Clients: React.FC = () => {
               <img
                 src={client.logo}
                 alt={client.name}
-                className="h-12 md:h-16 w-auto object-contain filter hover:brightness-125 transition-all duration-300"
+                className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 hover:brightness-125 transition-all duration-500"
               />
             </a>
           ))}
