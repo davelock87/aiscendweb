@@ -20,6 +20,11 @@ const Clients: React.FC = () => {
       logo: '/LOGO DE CSOFT blanco svg-svg.png',
       url: 'https://csoft.co/',
     },
+    {
+      name: 'Mi Local',
+      logo: '/logo 80x80.png',
+      url: 'https://milocal.com.co/',
+    },
   ];
 
   return (
