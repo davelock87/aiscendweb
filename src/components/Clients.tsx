@@ -7,12 +7,12 @@ const Clients: React.FC = () => {
   const clients = [
     {
       name: 'Beca Moda',
-      logo: '/Diseño sin título.png',
+      logo: '/cropped-Moda-Fashion-beca-158x158.webp',
       url: 'https://becamoda.com/',
     },
     {
       name: 'Tu Compras',
-      logo: '/tucompras.jpg',
+      logo: '/cropped-cropped-cropped-cropped-QT-LOGO-PW-200x66-1-100x89.png.webp',
       url: 'https://tucomprascol.com/',
     },
     {
