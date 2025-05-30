@@ -9,26 +9,31 @@ const Clients: React.FC = () => {
       name: 'Beca Moda',
       logo: '/BECAMODAVECTOR.svg',
       url: 'https://becamoda.com/',
+      className: 'h-16 md:h-24 brightness-0 invert'
     },
     {
       name: 'Tu Compras',
       logo: '/cropped-cropped-cropped-cropped-QT-LOGO-PW-200x66-1-100x89.png.webp',
       url: 'https://tucomprascol.com/',
+      className: 'h-12 md:h-16'
     },
     {
       name: 'CSoft',
       logo: '/LOGO DE CSOFT blanco svg-svg.png',
       url: 'https://csoft.co/',
+      className: 'h-12 md:h-16'
     },
     {
       name: 'Mi Local',
       logo: '/logo 80x80.png',
       url: 'https://milocal.com.co/',
+      className: 'h-12 md:h-16'
     },
     {
       name: 'Quality Tech',
       logo: '/cropped-cropped-cropped-QT-LOGO-PW-200x66 copy.png',
       url: 'https://www.qualitytech-id.com/',
+      className: 'h-12 md:h-16'
     },
   ];
 
@@ -50,7 +55,7 @@ const Clients: React.FC = () => {
               <img
                 src={client.logo}
                 alt={client.name}
-                className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 hover:brightness-125 transition-all duration-500"
+                className={`w-auto object-contain grayscale hover:grayscale-0 hover:brightness-125 transition-all duration-500 ${client.className}`}
               />
             </a>
           ))}
