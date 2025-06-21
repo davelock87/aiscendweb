@@ -63,15 +63,18 @@ const PricingPlan: React.FC<PlanProps> = ({
         </ul>
       </div>
       <div className="mt-8">
-        <button
-          className={`w-full py-2 rounded-lg font-medium transition-all ${
+        <a
+          href="https://wa.me/573228391374"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`w-full py-2 rounded-lg font-medium transition-all block text-center ${
             popular
               ? 'gradient-button text-white'
               : 'bg-dark-200 text-white hover:bg-dark-100'
           }`}
         >
           {buttonText}
-        </button>
+        </a>
       </div>
     </div>
   );
