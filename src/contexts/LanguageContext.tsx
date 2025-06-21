@@ -477,16 +477,15 @@ const translations = {
     'academy.cta.button': 'Contáctanos Ahora',
 
     // Hero
-    'hero.title1': 'Crea un Asistente de IA',
-    'hero.title2': '¡en Minutos!',
-    'hero.subtitle': 'Desarrolla rápidamente un Asistente de IA personalizado con Aiscend Automatizaciones: Conecta sin problemas a recursos y sube archivos para una asistencia integral.',
+    'hero.title1': 'Construye una asistente de inteligencia artificial a medida',
+    'hero.title2': '¡más rápido que nunca!',
+    'hero.subtitle': 'Transforma tu negocio con automatización de procesos personalizada y agentes conversacionales inteligentes. Consultoría experta y configuración en la nube adaptada a Recursos Humanos, Finanzas, Ventas, Analítica, Gestión de APIs, Inteligencia Artificial y Cadena de Suministro.',
     'hero.cta': 'Comenzar',
     'hero.pricing': 'Ver Precios',
-    'hero.rotatingWords.0': 'Chatbots',
-    'hero.rotatingWords.1': 'Automatización',
-    'hero.rotatingWords.2': 'Análisis',
-    'hero.rotatingWords.3': 'Soporte',
-
+    'hero.rotatingWords.0': 'Automatiza',
+    'hero.rotatingWords.1': 'Optimiza',
+    'hero.rotatingWords.2': 'Acelera',
+   
     // Features
     'features.title': 'Personalizado para Cada Necesidad',
     'features.subtitle': 'Crea asistentes dedicados para equipos, proyectos o flujos de trabajo. Aumenta la eficiencia del equipo en un 90% con acceso a datos personalizados para cada asistente.',
