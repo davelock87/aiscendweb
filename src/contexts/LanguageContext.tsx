@@ -483,10 +483,10 @@ const translations = {
     'hero.subtitle': 'Transforma tu negocio con automatización de procesos personalizada y agentes conversacionales inteligentes. Consultoría experta y configuración en la nube adaptada a Recursos Humanos, Finanzas, Ventas, Analítica, Gestión de APIs, Inteligencia Artificial y Cadena de Suministro.',
     'hero.cta': 'Comenzar',
     'hero.pricing': 'Ver Precios',
-    'hero.poweredBy': 'Impulsado por',
-    'hero.rotatingWords.0': 'Automatiza',
-    'hero.rotatingWords.1': 'Optimiza',
-    'hero.rotatingWords.2': 'Acelera',
+    'hero.poweredBy': 'Desarrollamos Para',
+    'hero.rotatingWords.0': 'Automatizar',
+    'hero.rotatingWords.1': 'Optimizar',
+    'hero.rotatingWords.2': 'Acelerar',
 
     // Features
     'features.title': 'Personalizado para Cada Necesidad',
