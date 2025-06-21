@@ -66,16 +66,15 @@ const translations = {
     'academy.cta.button': 'Contact Us Now',
 
     // Hero
-    'hero.title1': 'Craft an AI Assistant',
-    'hero.title2': 'in Minutes!',
-    'hero.subtitle': 'Rapidly Develop a Tailored AI Assistant with AIscend Automation: Seamlessly Connect to Resources and Upload Files for Comprehensive Assistance.',
+    'hero.title1': 'Build a Tailored AI Assistant,',
+    'hero.title2': 'Faster Than Ever!',
+    'hero.subtitle': 'Transform your business with customized process automation and intelligent conversational agents. Expert consulting and seamless cloud setup tailored for HR, Finance, Sales, Analytics, API Management, AI, and Supply Chain.',
     'hero.cta': 'Get Started',
     'hero.pricing': 'View Pricing',
-    'hero.rotatingWords.0': 'Chatbots',
-    'hero.rotatingWords.1': 'Automation',
-    'hero.rotatingWords.2': 'Analysis',
-    'hero.rotatingWords.3': 'Support',
-
+    'hero.rotatingWords.0': 'Automate',
+    'hero.rotatingWords.1': 'Optimize',
+    'hero.rotatingWords.2': 'Accelerate',
+    
     // Features
     'features.title': 'Customized for Every Need',
     'features.subtitle': 'Craft dedicated assistants for teams, projects, or workflows. Boost team efficiency by 90% with tailored data access for each assistant.',
