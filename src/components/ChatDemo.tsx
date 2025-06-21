@@ -69,18 +69,34 @@ const ChatDemo: React.FC = () => {
         throw new Error('Network response was not ok');
       }
 
-      const data = await response.json();
+      // Read response as text first
+      const responseText = await response.text();
+      
+      let data;
+      if (!responseText || responseText.trim() === '') {
+        // Handle empty response
+        data = { response: "I'm processing your request. Please allow me a moment." };
+      } else {
+        try {
+          // Attempt to parse JSON
+          data = JSON.parse(responseText);
+        } catch (parseError) {
+          console.error('JSON parsing error:', parseError);
+          // Handle malformed JSON
+          data = { response: "I received your message but encountered a formatting issue. Please try again." };
+        }
+      }
 
       const payload = Array.isArray(data) ? data[0] : data;
-       const botResponse = {
+      const botResponse = {
         id: messages.length + 2,
         text:
-        payload.response ??
-        payload.output   ??
-        "I'm processing your request. Please allow me a moment.",
-        sender: 'assistant',
+          payload.response ??
+          payload.output ??
+          "I'm processing your request. Please allow me a moment.",
+        sender: 'assistant' as const,
         time: formatTime(),
-         };
+      };
       setMessages((prev) => [...prev, botResponse]);
       setLoading(false);
     } catch (error) {
