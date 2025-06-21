@@ -41,86 +41,86 @@ const Integrations: React.FC = () => {
   const integrations = [
     {
       icon: <Database className="w-6 h-6" />,
-      title: 'Databases',
-      description: 'MySQL, PostgreSQL, MongoDB, Redis, and more',
+      title: t('integrations.databases.title'),
+      description: t('integrations.databases.desc'),
     },
     {
       icon: <Mail className="w-6 h-6" />,
-      title: 'Email Services',
-      description: 'Gmail, Outlook, SMTP, SendGrid, Mailchimp',
+      title: t('integrations.email.title'),
+      description: t('integrations.email.desc'),
     },
     {
       icon: <MessageSquare className="w-6 h-6" />,
-      title: 'Communication',
-      description: 'Slack, Discord, Telegram, WhatsApp, Teams',
+      title: t('integrations.communication.title'),
+      description: t('integrations.communication.desc'),
     },
     {
       icon: <Calendar className="w-6 h-6" />,
-      title: 'Calendar',
-      description: 'Google Calendar, Outlook Calendar, Calendly',
+      title: t('integrations.calendar.title'),
+      description: t('integrations.calendar.desc'),
     },
     {
       icon: <FileText className="w-6 h-6" />,
-      title: 'Documents',
-      description: 'Google Docs, Notion, Airtable, Excel',
+      title: t('integrations.documents.title'),
+      description: t('integrations.documents.desc'),
     },
     {
       icon: <ShoppingCart className="w-6 h-6" />,
-      title: 'E-commerce',
-      description: 'Shopify, WooCommerce, Stripe, PayPal',
+      title: t('integrations.ecommerce.title'),
+      description: t('integrations.ecommerce.desc'),
     },
     {
       icon: <Cloud className="w-6 h-6" />,
-      title: 'Cloud Services',
-      description: 'AWS, Google Cloud, Azure, DigitalOcean',
+      title: t('integrations.cloud.title'),
+      description: t('integrations.cloud.desc'),
     },
     {
       icon: <Code2 className="w-6 h-6" />,
-      title: 'Development',
-      description: 'GitHub, GitLab, Bitbucket, Jira',
+      title: t('integrations.development.title'),
+      description: t('integrations.development.desc'),
     },
   ];
 
   const solutions = [
     {
       icon: <Users className="w-6 h-6" />,
-      title: 'HR Automation',
-      description: 'Streamline onboarding, time tracking, and employee management',
+      title: t('integrations.hr.title'),
+      description: t('integrations.hr.desc'),
     },
     {
       icon: <Building2 className="w-6 h-6" />,
-      title: 'Finance & Operations',
-      description: 'Automate invoicing, expense tracking, and reporting',
+      title: t('integrations.finance.title'),
+      description: t('integrations.finance.desc'),
     },
     {
       icon: <Briefcase className="w-6 h-6" />,
-      title: 'Sales & Marketing',
-      description: 'CRM integration, lead tracking, and campaign automation',
+      title: t('integrations.sales.title'),
+      description: t('integrations.sales.desc'),
     },
     {
       icon: <LineChart className="w-6 h-6" />,
-      title: 'Analytics & Reporting',
-      description: 'Custom dashboards and automated reporting',
+      title: t('integrations.analytics.title'),
+      description: t('integrations.analytics.desc'),
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      title: 'Security & Compliance',
-      description: 'Data protection, audit logs, and access control',
+      title: t('integrations.security.title'),
+      description: t('integrations.security.desc'),
     },
     {
       icon: <Webhook className="w-6 h-6" />,
-      title: 'API Management',
-      description: 'Custom integrations and webhook management',
+      title: t('integrations.api.title'),
+      description: t('integrations.api.desc'),
     },
     {
       icon: <Bot className="w-6 h-6" />,
-      title: 'AI & Machine Learning',
-      description: 'Intelligent automation and predictive analytics',
+      title: t('integrations.ai.title'),
+      description: t('integrations.ai.desc'),
     },
     {
       icon: <Boxes className="w-6 h-6" />,
-      title: 'Supply Chain',
-      description: 'Inventory management and logistics automation',
+      title: t('integrations.supply.title'),
+      description: t('integrations.supply.desc'),
     },
   ];
 
