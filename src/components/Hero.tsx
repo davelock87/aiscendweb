@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
           </h1>
           <div className="h-16 mb-6 flex items-center justify-center overflow-hidden">
             <span className="text-xl md:text-2xl font-medium opacity-80 flex items-center">
-              <span className="mr-2">Powered by</span>
+              <span className="mr-2">{t('hero.poweredBy')}</span>
               <span className="gradient-text font-bold text-2xl md:text-3xl">
                 {rotatingWords[wordIndex]}
               </span>

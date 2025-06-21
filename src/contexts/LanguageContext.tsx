@@ -71,10 +71,11 @@ const translations = {
     'hero.subtitle': 'Transform your business with customized process automation and intelligent conversational agents. Expert consulting and seamless cloud setup tailored for HR, Finance, Sales, Analytics, API Management, AI, and Supply Chain.',
     'hero.cta': 'Get Started',
     'hero.pricing': 'View Pricing',
+    'hero.poweredBy': 'Powered by',
     'hero.rotatingWords.0': 'Automate',
     'hero.rotatingWords.1': 'Optimize',
     'hero.rotatingWords.2': 'Accelerate',
-    
+
     // Features
     'features.title': 'Customized for Every Need',
     'features.subtitle': 'Craft dedicated assistants for teams, projects, or workflows. Boost team efficiency by 90% with tailored data access for each assistant.',
@@ -482,10 +483,11 @@ const translations = {
     'hero.subtitle': 'Transforma tu negocio con automatización de procesos personalizada y agentes conversacionales inteligentes. Consultoría experta y configuración en la nube adaptada a Recursos Humanos, Finanzas, Ventas, Analítica, Gestión de APIs, Inteligencia Artificial y Cadena de Suministro.',
     'hero.cta': 'Comenzar',
     'hero.pricing': 'Ver Precios',
+    'hero.poweredBy': 'Impulsado por',
     'hero.rotatingWords.0': 'Automatiza',
     'hero.rotatingWords.1': 'Optimiza',
     'hero.rotatingWords.2': 'Acelera',
-   
+
     // Features
     'features.title': 'Personalizado para Cada Necesidad',
     'features.subtitle': 'Crea asistentes dedicados para equipos, proyectos o flujos de trabajo. Aumenta la eficiencia del equipo en un 90% con acceso a datos personalizados para cada asistente.',
