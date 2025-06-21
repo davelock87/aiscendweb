@@ -90,6 +90,7 @@ const translations = {
     'features.learnMore': 'Learn more',
 
     // Chat Demo
+    'demo.welcome': '👋 Hello! I\'m AISCEND AI, your intelligent assistant. I can help you with information about our AI automation services, answer questions about our features, pricing, and how we can help transform your business. What would you like to know?',
     'demo.placeholder': 'Type your message',
     'demo.send': 'Send',
     'demo.you': 'You',
@@ -501,6 +502,7 @@ const translations = {
     'features.learnMore': 'Saber más',
 
     // Chat Demo
+    'demo.welcome': '👋 ¡Hola! Soy AISCEND AI, tu asistente inteligente. Puedo ayudarte con información sobre nuestros servicios de automatización con IA, responder preguntas sobre nuestras características, precios y cómo podemos ayudar a transformar tu negocio. ¿Qué te gustaría saber?',
     'demo.placeholder': 'Escribe tu mensaje',
     'demo.send': 'Enviar',
     'demo.you': 'Tú',

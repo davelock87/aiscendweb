@@ -21,6 +21,17 @@ const ChatDemo: React.FC = () => {
     scrollToBottom();
   }, [messages]);
 
+  useEffect(() => {
+    // Add welcome message when component mounts
+    const welcomeMessage = {
+      id: 1,
+      text: t('demo.welcome'),
+      sender: 'assistant' as const,
+      time: formatTime(),
+    };
+    setMessages([welcomeMessage]);
+  }, [t]);
+
   const scrollToBottom = () => {
     if (messagesEndRef.current) {
       messagesEndRef.current.scrollIntoView({ behavior: 'smooth', block: 'end' });
