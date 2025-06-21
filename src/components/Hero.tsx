@@ -8,8 +8,7 @@ const Hero: React.FC = () => {
   const rotatingWords = [
     t('hero.rotatingWords.0'),
     t('hero.rotatingWords.1'),
-    t('hero.rotatingWords.2'),
-    t('hero.rotatingWords.3')
+    t('hero.rotatingWords.2')
   ];
 
   useEffect(() => {
