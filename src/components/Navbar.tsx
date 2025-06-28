@@ -35,6 +35,7 @@ const Navbar: React.FC = () => {
     { name: t('nav.realestate'), href: '/realestate' },
     { name: t('nav.carsales'), href: '/carsales' },
     { name: t('nav.ecommerce'), href: '/ecommerce' },
+    { name: language === 'en' ? 'Content & SEO' : 'Contenido y SEO', href: '/content-forge' },
   ];
 
   return (

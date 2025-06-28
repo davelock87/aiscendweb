@@ -16,6 +16,7 @@ import MedicalHealthcare from './components/MedicalHealthcare';
 import RealEstate from './components/RealEstate';
 import CarSales from './components/CarSales';
 import Ecommerce from './components/Ecommerce';
+import ContentForgeAI from './components/ContentForgeAI';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsOfService from './components/TermsOfService';
 import AboutUs from './components/AboutUs';
@@ -83,6 +84,13 @@ function App() {
         return (
           <>
             <Ecommerce />
+            <Clients />
+          </>
+        );
+      case '/content-forge':
+        return (
+          <>
+            <ContentForgeAI />
             <Clients />
           </>
         );
