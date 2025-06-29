@@ -7,6 +7,7 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [useCasesOpen, setUseCasesOpen] = useState(false);
+  const [businessSolutionsOpen, setBusinessSolutionsOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,6 +38,17 @@ const Navbar: React.FC = () => {
     { name: t('nav.ecommerce'), href: '/ecommerce' },
     { name: language === 'en' ? 'Content & SEO' : 'Contenido y SEO', href: '/content-forge' },
     { name: language === 'en' ? 'E-commerce AI' : 'IA E-commerce', href: '/hypertailor-ai' },
+  ];
+
+  const businessSolutions = [
+    { name: language === 'en' ? 'HR Automation' : 'Automatización de RRHH', href: '/hr-automation' },
+    { name: language === 'en' ? 'Finance & Operations' : 'Finanzas y Operaciones', href: '/finance-automation' },
+    { name: language === 'en' ? 'Sales & Marketing' : 'Ventas y Marketing', href: '/sales-marketing' },
+    { name: language === 'en' ? 'Analytics & Reports' : 'Análisis y Reportes', href: '/analytics-reports' },
+    { name: language === 'en' ? 'Security & Compliance' : 'Seguridad y Cumplimiento', href: '/security-compliance' },
+    { name: language === 'en' ? 'API Management' : 'Gestión de APIs', href: '/api-management' },
+    { name: language === 'en' ? 'AI & Machine Learning' : 'IA y Machine Learning', href: '/ai-ml-automation' },
+    { name: language === 'en' ? 'Supply Chain' : 'Cadena de Suministro', href: '/supply-chain' },
   ];
 
   return (
@@ -86,6 +98,31 @@ const Navbar: React.FC = () => {
                           role="menuitem"
                         >
                           {useCase.name}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+              <div className="relative">
+                <button
+                  onClick={() => setBusinessSolutionsOpen(!businessSolutionsOpen)}
+                  className="flex items-center text-white/80 hover:text-white transition duration-150 font-medium"
+                >
+                  {language === 'en' ? 'Business Solutions' : 'Soluciones Empresariales'}
+                  <ChevronDown className="ml-1 w-4 h-4" />
+                </button>
+                {businessSolutionsOpen && (
+                  <div className="absolute top-full mt-2 w-56 rounded-md shadow-lg bg-dark-400 ring-1 ring-black ring-opacity-5">
+                    <div className="py-1" role="menu">
+                      {businessSolutions.map((solution) => (
+                        <a
+                          key={solution.name}
+                          href={solution.href}
+                          className="block px-4 py-2 text-sm text-white/80 hover:bg-dark-300 hover:text-white"
+                          role="menuitem"
+                        >
+                          {solution.name}
                         </a>
                       ))}
                     </div>
@@ -165,6 +202,29 @@ const Navbar: React.FC = () => {
                       onClick={() => setIsOpen(false)}
                     >
                       {useCase.name}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+            <div className="py-2">
+              <button
+                onClick={() => setBusinessSolutionsOpen(!businessSolutionsOpen)}
+                className="flex items-center text-white/80 hover:text-white transition duration-150"
+              >
+                {language === 'en' ? 'Business Solutions' : 'Soluciones Empresariales'}
+                <ChevronDown className="ml-1 w-4 h-4" />
+              </button>
+              {businessSolutionsOpen && (
+                <div className="pl-4 mt-2 space-y-2">
+                  {businessSolutions.map((solution) => (
+                    <a
+                      key={solution.name}
+                      href={solution.href}
+                      className="block py-2 text-white/80 hover:text-white transition duration-150"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {solution.name}
                     </a>
                   ))}
                 </div>

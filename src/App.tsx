@@ -23,6 +23,14 @@ import TermsOfService from './components/TermsOfService';
 import AboutUs from './components/AboutUs';
 import Careers from './components/Careers';
 import Clients from './components/Clients';
+import HRAutomation from './components/HRAutomation';
+import FinanceAutomation from './components/FinanceAutomation';
+import SalesMarketing from './components/SalesMarketing';
+import AnalyticsReports from './components/AnalyticsReports';
+import SecurityCompliance from './components/SecurityCompliance';
+import APIManagement from './components/APIManagement';
+import AIMLAutomation from './components/AIMLAutomation';
+import SupplyChain from './components/SupplyChain';
 
 function App() {
   const { language } = useLanguage();
@@ -99,6 +107,62 @@ function App() {
         return (
           <>
             <HyperTailorAI />
+            <Clients />
+          </>
+        );
+      case '/hr-automation':
+        return (
+          <>
+            <HRAutomation />
+            <Clients />
+          </>
+        );
+      case '/finance-automation':
+        return (
+          <>
+            <FinanceAutomation />
+            <Clients />
+          </>
+        );
+      case '/sales-marketing':
+        return (
+          <>
+            <SalesMarketing />
+            <Clients />
+          </>
+        );
+      case '/analytics-reports':
+        return (
+          <>
+            <AnalyticsReports />
+            <Clients />
+          </>
+        );
+      case '/security-compliance':
+        return (
+          <>
+            <SecurityCompliance />
+            <Clients />
+          </>
+        );
+      case '/api-management':
+        return (
+          <>
+            <APIManagement />
+            <Clients />
+          </>
+        );
+      case '/ai-ml-automation':
+        return (
+          <>
+            <AIMLAutomation />
+            <Clients />
+          </>
+        );
+      case '/supply-chain':
+        return (
+          <>
+            <SupplyChain />
             <Clients />
           </>
         );
