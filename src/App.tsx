@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import ChatDemo from './components/ChatDemo';
+import ScheduleCTA from './components/ScheduleCTA';
 import Testimonials from './components/Testimonials';
 import Integrations from './components/Integrations';
 import FAQ from './components/FAQ';
@@ -179,6 +180,7 @@ function App() {
             <Hero />
             <ChatDemo />
             <Features />
+            <ScheduleCTA />
             <Integrations />
             <Testimonials />
             <FAQ />
