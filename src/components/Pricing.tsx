@@ -4,7 +4,6 @@ import { Check } from 'lucide-react';
 
 interface PlanProps {
   title: string;
-  price: string;
   features: string[];
   featureValues: string[];
   buttonText: string;
@@ -13,7 +12,6 @@ interface PlanProps {
 
 const PricingPlan: React.FC<PlanProps> = ({
   title,
-  price,
   features,
   featureValues,
   buttonText,
@@ -35,10 +33,16 @@ const PricingPlan: React.FC<PlanProps> = ({
         </div>
       )}
       <div className="mb-6">
-        <h3 className="text-xl font-bold mb-2">{title}</h3>
-        <div className="flex items-end">
-          <span className="text-3xl font-bold">{price}</span>
-          {price !== 'Custom' && <span className="text-white/60 ml-1">/month</span>}
+        <h3 className="text-xl font-bold mb-4">{title}</h3>
+        <div className="text-center">
+          <a
+            href="https://wa.me/573228391374"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 font-bold text-lg hover:text-blue-300 transition-colors cursor-pointer"
+          >
+            ¡Consulta precio!
+          </a>
         </div>
       </div>
       <div className="flex-grow">
@@ -105,7 +109,6 @@ const Pricing: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
           <PricingPlan
             title={t('pricing.free')}
-            price={t('pricing.freePrice')}
             features={features}
             featureValues={[
               t('pricing.free1'),
@@ -119,7 +122,6 @@ const Pricing: React.FC = () => {
           />
           <PricingPlan
             title={t('pricing.pro')}
-            price={t('pricing.proPrice')}
             features={features}
             featureValues={[
               t('pricing.pro1'),
@@ -134,7 +136,6 @@ const Pricing: React.FC = () => {
           />
           <PricingPlan
             title={t('pricing.enterprise')}
-            price={t('pricing.enterprisePrice')}
             features={features}
             featureValues={[
               t('pricing.enterprise1'),
