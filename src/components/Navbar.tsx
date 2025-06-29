@@ -8,6 +8,7 @@ const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
   const [useCasesOpen, setUseCasesOpen] = useState(false);
   const [businessSolutionsOpen, setBusinessSolutionsOpen] = useState(false);
+  const [academyServicesOpen, setAcademyServicesOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -48,6 +49,15 @@ const Navbar: React.FC = () => {
     { name: language === 'en' ? 'API Management' : 'Gestión de APIs', href: '/api-management' },
     { name: language === 'en' ? 'AI & Machine Learning' : 'IA y Machine Learning', href: '/ai-ml-automation' },
     { name: language === 'en' ? 'Supply Chain' : 'Cadena de Suministro', href: '/supply-chain' },
+  ];
+
+  const academyServices = [
+    { name: language === 'en' ? 'Market Research' : 'Investigación de Mercado', href: '/market-research' },
+    { name: language === 'en' ? 'User Experience' : 'Experiencia de Usuario', href: '/user-experience' },
+    { name: language === 'en' ? 'Digital Marketing' : 'Marketing Digital', href: '/digital-marketing' },
+    { name: language === 'en' ? 'Web Development' : 'Desarrollo Web', href: '/web-development' },
+    { name: language === 'en' ? 'Brand Design' : 'Diseño de Marca', href: '/brand-design' },
+    { name: language === 'en' ? 'SEO & SMM Services' : 'Servicios SEO y SMM', href: '/seo-services' },
   ];
 
   return (
@@ -122,6 +132,31 @@ const Navbar: React.FC = () => {
                           role="menuitem"
                         >
                           {solution.name}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+              <div className="relative">
+                <button
+                  onClick={() => setAcademyServicesOpen(!academyServicesOpen)}
+                  className="flex items-center text-white/80 hover:text-white transition duration-150 font-medium"
+                >
+                  {language === 'en' ? 'Academy Services' : 'Servicios Academia'}
+                  <ChevronDown className="ml-1 w-4 h-4" />
+                </button>
+                {academyServicesOpen && (
+                  <div className="absolute top-full mt-2 w-56 rounded-md shadow-lg bg-dark-400 ring-1 ring-black ring-opacity-5">
+                    <div className="py-1" role="menu">
+                      {academyServices.map((service) => (
+                        <a
+                          key={service.name}
+                          href={service.href}
+                          className="block px-4 py-2 text-sm text-white/80 hover:bg-dark-300 hover:text-white"
+                          role="menuitem"
+                        >
+                          {service.name}
                         </a>
                       ))}
                     </div>
@@ -224,6 +259,29 @@ const Navbar: React.FC = () => {
                       onClick={() => setIsOpen(false)}
                     >
                       {solution.name}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+            <div className="py-2">
+              <button
+                onClick={() => setAcademyServicesOpen(!academyServicesOpen)}
+                className="flex items-center text-white/80 hover:text-white transition duration-150"
+              >
+                {language === 'en' ? 'Academy Services' : 'Servicios Academia'}
+                <ChevronDown className="ml-1 w-4 h-4" />
+              </button>
+              {academyServicesOpen && (
+                <div className="pl-4 mt-2 space-y-2">
+                  {academyServices.map((service) => (
+                    <a
+                      key={service.name}
+                      href={service.href}
+                      className="block py-2 text-white/80 hover:text-white transition duration-150"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {service.name}
                     </a>
                   ))}
                 </div>

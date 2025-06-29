@@ -31,6 +31,12 @@ import SecurityCompliance from './components/SecurityCompliance';
 import APIManagement from './components/APIManagement';
 import AIMLAutomation from './components/AIMLAutomation';
 import SupplyChain from './components/SupplyChain';
+import MarketResearch from './components/MarketResearch';
+import UserExperience from './components/UserExperience';
+import DigitalMarketing from './components/DigitalMarketing';
+import WebDevelopment from './components/WebDevelopment';
+import BrandDesign from './components/BrandDesign';
+import SEOServices from './components/SEOServices';
 
 function App() {
   const { language } = useLanguage();
@@ -163,6 +169,48 @@ function App() {
         return (
           <>
             <SupplyChain />
+            <Clients />
+          </>
+        );
+      case '/market-research':
+        return (
+          <>
+            <MarketResearch />
+            <Clients />
+          </>
+        );
+      case '/user-experience':
+        return (
+          <>
+            <UserExperience />
+            <Clients />
+          </>
+        );
+      case '/digital-marketing':
+        return (
+          <>
+            <DigitalMarketing />
+            <Clients />
+          </>
+        );
+      case '/web-development':
+        return (
+          <>
+            <WebDevelopment />
+            <Clients />
+          </>
+        );
+      case '/brand-design':
+        return (
+          <>
+            <BrandDesign />
+            <Clients />
+          </>
+        );
+      case '/seo-services':
+        return (
+          <>
+            <SEOServices />
             <Clients />
           </>
         );
