@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import ChatDemo from './components/ChatDemo';
-import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
 import Integrations from './components/Integrations';
 import FAQ from './components/FAQ';
@@ -181,7 +180,6 @@ function App() {
             <ChatDemo />
             <Features />
             <Integrations />
-            <Pricing />
             <Testimonials />
             <FAQ />
             <Clients />
