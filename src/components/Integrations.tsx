@@ -23,17 +23,37 @@ interface IntegrationCardProps {
   icon: React.ReactNode;
   title: string;
   description: string;
+  href?: string;
 }
 
-const IntegrationCard: React.FC<IntegrationCardProps> = ({ icon, title, description }) => (
-  <div className="bg-dark-300 p-6 rounded-xl transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl">
-    <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-      <div className="gradient-icon">{icon}</div>
+const IntegrationCard: React.FC<IntegrationCardProps> = ({ icon, title, description, href }) => {
+  const CardContent = (
+    <>
+      <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+        <div className="gradient-icon">{icon}</div>
+      </div>
+      <h3 className="text-lg font-semibold mb-2">{title}</h3>
+      <p className="text-white/70 text-sm">{description}</p>
+    </>
+  );
+
+  if (href) {
+    return (
+      <a 
+        href={href}
+        className="bg-dark-300 p-6 rounded-xl transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl block"
+      >
+        {CardContent}
+      </a>
+    );
+  }
+
+  return (
+    <div className="bg-dark-300 p-6 rounded-xl transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl">
+      {CardContent}
     </div>
-    <h3 className="text-lg font-semibold mb-2">{title}</h3>
-    <p className="text-white/70 text-sm">{description}</p>
-  </div>
-);
+  );
+};
 
 const Integrations: React.FC = () => {
   const { t } = useLanguage();
@@ -86,41 +106,49 @@ const Integrations: React.FC = () => {
       icon: <Users className="w-6 h-6" />,
       title: t('integrations.hr.title'),
       description: t('integrations.hr.desc'),
+      href: '/hr-automation'
     },
     {
       icon: <Building2 className="w-6 h-6" />,
       title: t('integrations.finance.title'),
       description: t('integrations.finance.desc'),
+      href: '/finance-automation'
     },
     {
       icon: <Briefcase className="w-6 h-6" />,
       title: t('integrations.sales.title'),
       description: t('integrations.sales.desc'),
+      href: '/sales-marketing'
     },
     {
       icon: <LineChart className="w-6 h-6" />,
       title: t('integrations.analytics.title'),
       description: t('integrations.analytics.desc'),
+      href: '/analytics-reports'
     },
     {
       icon: <Shield className="w-6 h-6" />,
       title: t('integrations.security.title'),
       description: t('integrations.security.desc'),
+      href: '/security-compliance'
     },
     {
       icon: <Webhook className="w-6 h-6" />,
       title: t('integrations.api.title'),
       description: t('integrations.api.desc'),
+      href: '/api-management'
     },
     {
       icon: <Bot className="w-6 h-6" />,
       title: t('integrations.ai.title'),
       description: t('integrations.ai.desc'),
+      href: '/ai-ml-automation'
     },
     {
       icon: <Boxes className="w-6 h-6" />,
       title: t('integrations.supply.title'),
       description: t('integrations.supply.desc'),
+      href: '/supply-chain'
     },
   ];
 
