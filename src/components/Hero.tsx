@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
               {t('hero.cta')}
             </a>
             <a
-              href="#pricing"
+              href="https://wa.me/573228391374"
               className="px-8 py-3 rounded-full text-white font-medium text-lg border border-white/20 hover:bg-white/10 transition-all duration-300"
             >
               {t('hero.pricing')}
