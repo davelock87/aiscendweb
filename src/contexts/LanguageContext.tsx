@@ -514,7 +514,7 @@ const translations = {
     'academy.cta.button': 'Contáctanos Ahora',
 
     // Hero
-    'hero.title1': 'Construye una asistente de inteligencia artificial a medida',
+    'hero.title1': 'Construye un asistente de inteligencia artificial a medida',
     'hero.title2': '¡más rápido que nunca!',
     'hero.subtitle': 'Transforma tu negocio con automatización de procesos personalizada y agentes conversacionales inteligentes. Consultoría experta y configuración en la nube adaptada a Recursos Humanos, Finanzas, Ventas, Analítica, Gestión de APIs, Inteligencia Artificial y Cadena de Suministro.',
     'hero.cta': 'Comenzar',
