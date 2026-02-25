@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+Allow: /solutions/
+Allow: /services/
+Allow: /ai-tools/
+Allow: /automation/
+Allow: /about
+Allow: /features
+Allow: /clients
+Allow: /testimonials
+Allow: /faq
+Allow: /careers
+Allow: /academy
+Allow: /integrations
+
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+Disallow: /.git/
+Disallow: /node_modules/
+
+Sitemap: https://automatizacionesaiscend.com/sitemap.xml
+
+Crawl-delay: 1
+Request-rate: 30/60
+
+User-agent: Googlebot
+Crawl-delay: 0
+
+User-agent: Bingbot
+Crawl-delay: 1

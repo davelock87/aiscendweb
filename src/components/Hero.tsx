@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import Particles from './Particles';
+import { SEO } from './SEO';
+import { StructuredData } from './StructuredData';
+import { organizationSchema, webPageSchema } from '../utils/structuredData';
 
 const Hero: React.FC = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [wordIndex, setWordIndex] = useState(0);
   const rotatingWords = [
     t('hero.rotatingWords.0'),
@@ -20,8 +23,16 @@ const Hero: React.FC = () => {
   }, [rotatingWords.length]);
 
   return (
-    <section id="home" className="relative pt-24 pb-8 overflow-hidden">
-      <Particles />
+    <>
+      <SEO
+        title="Soluciones de Automatización AI"
+        description="Automatiza tu negocio con soluciones de IA. Aumenta productividad, reduce costos y transforma tu empresa con AISCEND."
+        keywords="automatización IA, automatización empresarial, soluciones AI, inteligencia artificial"
+        url="https://automatizacionesaiscend.com/"
+      />
+      <StructuredData schema={organizationSchema} />
+      <section id="home" className="relative pt-24 pb-8 overflow-hidden">
+        <Particles />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-16 md:pt-24 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
@@ -58,6 +69,7 @@ const Hero: React.FC = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
